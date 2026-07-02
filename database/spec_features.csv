@@ -1,0 +1,950 @@
+feature_id;axis;nominal;lie_customer;lse_customer;lie_internal;lse_internal;feature_description;on_accuracy
+PART01_01R_X;Pos X;226.2;-3;3;-4.5;4.5;Upper Part Inboard RH Hole - Pos X;True
+PART01_01R_Y;Pos Y;326;-3;3;-4.5;4.5;Upper Part Inboard RH Hole - Pos Y;True
+PART01_01R_Z;Pos Z;990.2;-3;3;-4.5;4.5;Upper Part Inboard RH Hole - Pos Z;True
+PART01_02R_X;Pos X;226.2;-3;3;-4.5;4.5;Upper Part Outboard RH Hole - Pos X;True
+PART01_02R_Y;Pos Y;449;-3;3;-4.5;4.5;Upper Part Outboard RH Hole - Pos Y;True
+PART01_02R_Z;Pos Z;1052.3;-3;3;-4.5;4.5;Upper Part Outboard RH Hole - Pos Z;True
+PART01_01L_X;Pos X;226.2;-3;3;-4.5;4.5;Upper Part Inboard LH Hole - Pos X;True
+PART01_01L_Y;Pos Y;-326;-3;3;-4.5;4.5;Upper Part Inboard LH Hole - Pos Y;True
+PART01_01L_Z;Pos Z;990.2;-3;3;-4.5;4.5;Upper Part Inboard LH Hole - Pos Z;True
+PART01_02L_X;Pos X;226.2;-3;3;-4.5;4.5;Outboard Nut LH - Pos X;TRUE
+PART01_02L_Y;Pos Y;-449;-3;3;-4.5;4.5;Outboard Nut LH - Pos Y;TRUE
+PART01_02L_Z;Pos Z;1052.3;-3;3;-4.5;4.5;Outboard Nut LH - Pos Z;TRUE
+PART01_P1_Y;Dist Y;652;-3;3;-6;6;Lower Part - Outboard vs Outboard Holes - W-Pitch;True
+PART01_P5R_X;Dist X;0;-1.5;1.5;-3;3;Inboard Nut vs Outboard Nut RH - L-Pitch;TRUE
+PART01_P5R_Y;Dist Y;123;-1;1;-2;2;Inboard Nut vs Outboard Nut RH - W-Pitch;TRUE
+PART01_P5R_Z;Dist Z;62.1;-1;1;-2;2;Inboard Nut vs Outboard Nut RH - H-Pitch;TRUE
+PART01_P5L_X;Dist X;0;-1.5;1.5;-3;3;Inboard Nut vs Outboard Nut LH - L-Pitch;TRUE
+PART01_P5L_Y;Dist Y;123;-1;1;-2;2;Inboard Nut vs Outboard Nut LH - W-Pitch;TRUE
+PART01_P5L_Z;Dist Z;62.1;-1;1;-2;2;Inboard Nut vs Outboard Nut LH - H-Pitch;TRUE
+PART01_P3R_X;Dist X;193.8;-4;4;-8;8;Inboard Nut vs Cab # 1 RH - L-Pitch;TRUE
+PART01_P3R_Z;Dist Z;81.2;-4;4;-8;8;Inboard Nut vs Cab # 1 RH - H-Pitch;TRUE
+PART01_P3L_X;Dist X;193.8;-4;4;-8;8;Inboard Nut vs Cab # 1 LH - L-Pitch;TRUE
+PART01_P3L_Z;Dist Z;81.2;-4;4;-8;8;Inboard Nut vs Cab # 1 LH - H-Pitch;TRUE
+PART02_01R_X;Pos X;420;-4;4;-8;8;Lower Part Inboard RH Hole - Pos X;True
+PART02_01R_Y;Pos Y;459.6;-4;4;-8;8;Lower Part Inboard RH Hole - Pos Y;True
+PART02_01R_Z;Pos Z;1071.4;-4;4;-8;8;Lower Part Inboard RH Hole - Pos Z;True
+PART02_02R_X;Pos X;1527.1;-4;4;-8;8;Lower Part Outboard Hole - Pos X;True
+PART02_02R_Y;Pos Y;620.4;-4;4;-8;8;Lower Part Outboard Hole - Pos Y;True
+PART02_02R_Z;Pos Z;918;-4;4;-8;8;Lower Part Outboard Hole - Pos Z;True
+PART02_01L_X;Pos X;420;-4;4;-8;8;Lower Part Inboard LH Hole - Pos X;True
+PART02_01L_Y;Pos Y;-459.6;-4;4;-8;8;Lower Part Inboard LH Hole - Pos Y;True
+PART02_01L_Z;Pos Z;1071.4;-4;4;-8;8;Lower Part Inboard LH Hole - Pos Z;True
+PART02_02L_X;Pos X;1527.1;-4;4;-8;8;Cab # 2 LH - Pos X;TRUE
+PART02_02L_Y;Pos Y;-620.4;-4;4;-8;8;Cab # 2 LH - Pos Y;TRUE
+PART02_02L_Z;Pos Z;918;-4;4;-8;8;Cab # 2 LH - Pos Z;TRUE
+PART02_P1_X;Dist X;0;-4;4;-8;8;Cab # 1 RH vs Cab # 1 LH - L-Pitch;TRUE
+PART02_P1_Y;Dist Y;919.2;-4;4;-8;8;Lower Part - Inboard vs Outboard Holes - W-Pitch;True
+PART02_P1_Z;Dist Z;0;-3;3;-6;6;Cab # 1 RH vs Cab # 1 LH - H-Pitch;TRUE
+PART02_P2_X;Dist X;1107.1;-4;4;-8;8;Cab # 1 RH vs Cab # 2 RH - L-Pitch;TRUE
+PART02_P2_Y;Dist Y;160.8;-4;4;-8;8;Cab # 1 RH vs Cab # 2 RH - W-Pitch;TRUE
+PART02_P2_Z;Dist Z;153.4;-3;3;-6;6;Cab # 1 RH vs Cab # 2 RH - H-Pitch;TRUE
+PART02_P3_X;Dist X;1107.1;-4;4;-8;8;Cab # 1 RH vs Cab # 2 LH - L-Pitch;TRUE
+PART02_P3_Y;Dist Y;1080;-4;4;-8;8;Cab # 1 RH vs Cab # 2 LH - W-Pitch;TRUE
+PART02_P10_Z;Dist Z;0;-3;3;-6;6;Cab # 2 RH vs Cab # 2 LH - H-Pitch;TRUE
+PART02_P11_Z;Dist Z;153.4;-3;3;-6;6;Cab # 1 LH vs Cab # 2 LH - H-Pitch;TRUE
+PART02_P18_Z;Dist Z;0;-4;4;-8;8;A+B (P1_Z + P10_Z);TRUE
+PART02_03R_X;Pos X;2695;-4;4;-8;8;Cab # 3 RH - Pos X;TRUE
+PART02_03R_Y;Pos Y;625;-4;4;-8;8;Cab # 3 RH - Pos Y;TRUE
+PART02_03R_Z;Pos Z;976.9;-4;4;-8;8;Cab # 3 RH - Pos Z;TRUE
+PART02_03L_X;Pos X;2695;-4;4;-8;8;Cab # 3 LH - Pos X;TRUE
+PART02_03L_Y;Pos Y;-625;-4;4;-8;8;Cab # 3 LH - Pos Y;TRUE
+PART02_03L_Z;Pos Z;976.9;-4;4;-8;8;Cab # 3 LH - Pos Z;TRUE
+PART02_P4_X;Dist X;2275;-4;4;-8;8;Cab # 1 RH vs Cab # 3 RH - L-Pitch;TRUE
+PART02_P4_Y;Dist Y;165.4;-4;4;-8;8;Cab # 1 RH vs Cab # 3 RH - W-Pitch;TRUE
+PART02_P5_X;Dist X;2275;-4;4;-8;8;Cab # 1 RH vs Cab # 3 LH - L-Pitch;TRUE
+PART02_P5_Y;Dist Y;1084.6;-4;4;-8;8;Cab # 1 RH vs Cab # 3 LH - W-Pitch;TRUE
+PART02_P12_Z;Dist Z;58.9;-3;3;-6;6;Cab # 2 RH vs Cab # 3 RH - H-Pitch;TRUE
+PART02_P13_Z;Dist Z;0;-4;4;-8;8;Cab # 3 RH vs Cab # 3 LH - H-Pitch;TRUE
+PART02_P14_Z;Dist Z;58.9;-3;3;-6;6;Cab # 2 LH vs Cab # 3 LH - H-Pitch;TRUE
+PART02_P19_Z;Dist Z;0;-4;4;-8;8;B+C (P10_Z + P13_Z);TRUE
+PART02_04R_X;Pos X;3477.3;-4;4;-6;6;Cab # 3 RH - Pos X;TRUE
+PART02_04R_Y;Pos Y;636.4;-4;4;-6;6;Cab # 3 RH - Pos Y;TRUE
+PART02_04R_Z;Pos Z;1070.6;-4;4;-6;6;Cab # 3 RH - Pos Z;TRUE
+PART02_04L_X;Pos X;3477.3;-4;4;-6;6;Cab # 3 LH - Pos X;TRUE
+PART02_04L_Y;Pos Y;-636.4;-4;4;-6;6;Cab # 3 LH - Pos Y;TRUE
+PART02_04L_Z;Pos Z;1070.6;-4;4;-6;6;Cab # 3 LH - Pos Z;TRUE
+PART02_P6_X;Dist X;3057.3;-4;4;-8;8;Cab # 1 RH vs Cab # 3 RH - L-Pitch;TRUE
+PART02_P6_Y;Dist Y;176.8;-4;4;-8;8;Cab # 1 RH vs Cab # 3 RH - W-Pitch;TRUE
+PART02_P7_X;Dist X;3057.3;-4;4;-8;8;Cab # 1 RH vs Cab # 3 LH - L-Pitch;TRUE
+PART02_P7_Y;Dist Y;1096;-4;4;-8;8;Cab # 1 RH vs Cab # 3 LH - W-Pitch;TRUE
+PART02_P15_Z;Dist Z;152.6;-3;3;-6;6;Cab # 2 RH vs Cab # 3 RH - H-Pitch;TRUE
+PART02_P16_Z;Dist Z;0;-4;4;-8;8;Cab # 3 RH vs Cab # 3 LH - H-Pitch;TRUE
+PART02_P17_Z;Dist Z;152.6;-3;3;-6;6;Cab # 2 LH vs Cab # 3 LH - H-Pitch;TRUE
+PART02_P20_Z;Dist Z;0;-4;4;-8;8;B+C (P10_Z + P16_Z);TRUE
+PART03_02R_X;Pos X;4509;-4;4;-6;6;Deck # 3 RH - Pos X;TRUE
+PART03_02R_Y;Pos Y;621.5;-4;4;-6;6;Deck # 3 RH - Pos Y;TRUE
+PART03_02R_Z;Pos Z;1196.7;-4;4;-6;6;Deck # 3 RH - Pos Z;TRUE
+PART03_02L_X;Pos X;4509;-4;4;-6;6;Deck # 3 LH - Pos X;TRUE
+PART03_02L_Y;Pos Y;-621.5;-4;4;-6;6;Deck # 3 LH - Pos Y;TRUE
+PART03_02L_Z;Pos Z;1196.7;-4;4;-6;6;Deck # 3 LH - Pos Z;TRUE
+PART03_03R_X;Pos X;4930;-4;4;-6;6;Deck # 4 RH - Pos X;TRUE
+PART03_03R_Y;Pos Y;621.5;-4;4;-6;6;Deck # 4 RH - Pos Y;TRUE
+PART03_03R_Z;Pos Z;1200.2;-4;4;-6;6;Deck # 4 RH - Pos Z;TRUE
+PART03_03L_X;Pos X;4930;-4;4;-6;6;Deck # 4 LH - Pos X;TRUE
+PART03_03L_Y;Pos Y;-621.5;-4;4;-6;6;Deck # 4 LH - Pos Y;TRUE
+PART03_03L_Z;Pos Z;1200.2;-4;4;-6;6;Deck # 4 LH - Pos Z;TRUE
+PART03_P20_Z;Dist Z;3.5;-3;3;-6;6;Deck # 3 RH vs Deck # 4 RH - H-Pitch;TRUE
+PART03_P22_Z;Dist Z;3.5;-3;3;-6;6;Deck # 3 LH vs Deck # 4 LH - H-Pitch;TRUE
+PART03_04R_X;Pos X;2982;-4;4;-8;8;Deck # 1 RH - Pos X;TRUE
+PART03_04R_Y;Pos Y;621.5;-4;4;-8;8;Deck # 1 RH - Pos Y;TRUE
+PART03_04R_Z;Pos Z;1200.5;-4;4;-8;8;Deck # 1 RH - Pos Z;TRUE
+PART03_04L_X;Pos X;2982;-4;4;-8;8;Deck # 1 LH - Pos X;TRUE
+PART03_04L_Y;Pos Y;-621.5;-4;4;-8;8;Deck # 1 LH - Pos Y;TRUE
+PART03_04L_Z;Pos Z;1200.2;-4;4;-8;8;Deck # 1 LH - Pos Z;TRUE
+PART03_05R_X;Pos X;3550;-4;4;-8;8;Deck # 2 RH - Pos X;TRUE
+PART03_05R_Y;Pos Y;621.5;-4;4;-8;8;Deck # 2 RH - Pos Y;TRUE
+PART03_05R_Z;Pos Z;1200.2;-4;4;-8;8;Deck # 2 RH - Pos Z;TRUE
+PART03_06L_X;Pos X;3550;-4;4;-8;8;Deck # 2 LH - Pos X;TRUE
+PART03_06L_Y;Pos Y;-621.5;-4;4;-8;8;Deck # 2 LH - Pos Y;TRUE
+PART03_06L_Z;Pos Z;1200.2;-4;4;-8;8;Deck # 2 LH - Pos Z;TRUE
+PART03_P1_X;Dist X;959;-4;4;-8;8;Deck # 2 RH vs Deck # 3 RH - L-Pitch;TRUE
+PART03_P1_Y;Dist Y;0;-4;4;-8;8;Deck # 2 RH vs Deck # 3 RH - W-Pitch;FALSE
+PART03_P1_Z;Dist Z;3.5;-4;4;-8;8;Deck # 2 RH vs Deck # 3 RH - H-Pitch;TRUE
+PART03_P2_X;Dist X;959;-4;4;-8;8;Deck # 2 RH vs Deck # 3 LH - L-Pitch;TRUE
+PART03_P2_Y;Dist Y;1243;-4;4;-8;8;Deck # 2 RH vs Deck # 3 LH - W-Pitch;FALSE
+PART03_P2_Z;Dist Z;3.5;-4;4;-8;8;Deck # 2 RH vs Deck # 3 LH - H-Pitch;FALSE
+PART03_P3_X;Dist X;1380;-4;4;-8;8;Deck # 2 RH vs Deck # 4 RH - L-Pitch;TRUE
+PART03_P3_Y;Dist Y;0;-4;4;-8;8;Deck # 2 RH vs Deck # 4 RH - W-Pitch;FALSE
+PART03_P3_Z;Dist Z;0;-4;4;-8;8;Deck # 2 RH vs Deck # 4 RH - H-Pitch;FALSE
+PART03_P4_X;Dist X;1380;-4;4;-8;8;Deck # 2 RH vs Deck # 4 LH - L-Pitch;TRUE
+PART03_P4_Y;Dist Y;1243;-4;4;-8;8;Deck # 2 RH vs Deck # 4 LH - W-Pitch;FALSE
+PART03_P4_Z;Dist Z;0;-4;4;-8;8;Deck # 2 RH vs Deck # 4 LH - H-Pitch;FALSE
+PART03_P5_X;Dist X;568;-4;4;-8;8;Deck # 2 RH vs Deck # 1 RH - L-Pitch;TRUE
+PART03_P5_Y;Dist Y;0;-4;4;-8;8;Deck # 2 RH vs Deck # 1 RH - W-Pitch;FALSE
+PART03_P5_Z;Dist Z;0.3;-4;4;-8;8;Deck # 2 RH vs Deck # 1 RH - H-Pitch;FALSE
+PART03_P6_X;Dist X;568;-4;4;-8;8;Deck # 2 RH vs Deck # 1 LH - L-Pitch;TRUE
+PART03_P6_Y;Dist Y;1243;-4;4;-8;8;Deck # 2 RH vs Deck # 1 LH - W-Pitch;FALSE
+PART03_P6_Z;Dist Z;0;-4;4;-8;8;Deck # 2 RH vs Deck # 1 LH - H-Pitch;FALSE
+PART03_P7_X;Dist X;0;-2;2;-4;4;Deck # 2 RH vs Deck # 2 LH - L-Pitch;TRUE
+PART03_P7_Y;Dist Y;1243;-4;4;-8;8;Deck # 2 RH vs Deck # 2 LH - W-Pitch;FALSE
+PART03_P7_Z;Dist Z;0;-4;4;-8;8;Deck # 2 RH vs Deck # 2 LH - H-Pitch;FALSE
+PART03_P8_X;Dist X;3130;-4;4;-8;8;Deck # 2 RH vs Cab # 1 RH - L-Pitch;TRUE
+PART03_P8_Y;Dist Y;161.9;-4;4;-8;8;Deck # 2 RH vs Cab # 1 RH - W-Pitch;FALSE
+PART03_P8_Z;Dist Z;128.8;-4;4;-8;8;Deck # 2 RH vs Cab # 1 RH - H-Pitch;FALSE
+PART03_P23_Y;Dist Y;1081.1;-3.5;3.5;-7;7;Deck # 2 LH vs Cab # 1 RH - W-Pitch;TRUE
+PART03_P25_Y;Dist Y;1243;-4;4;-8;8;Deck # 2 LH vs Deck # 1 RH - W-Pitch;TRUE
+PART03_P26_Y;Dist Y;0;-4;4;-8;8;Deck # 2 LH vs Deck # 1 LH - W-Pitch;TRUE
+PART03_P27_Y;Dist Y;1243;-4;4;-8;8;Deck # 2 LH vs Deck # 3 RH - W-Pitch;TRUE
+PART03_P28_Y;Dist Y;0;-4;4;-8;8;Deck # 2 LH vs Deck # 3 LH - W-Pitch;TRUE
+PART03_P29_Y;Dist Y;1243;-5;5;-10;10;Deck # 2 LH vs Deck # 4 RH - W-Pitch;TRUE
+PART03_P30_Y;Dist Y;0;-5;5;-10;10;Deck # 2 LH vs Deck # 4 LH - W-Pitch;TRUE
+PART03_P31_Y;Dist Y;3.5;-3;3;-6;6;Deck # 2 LH vs Cab # 3 LH - W-Pitch;TRUE
+PART03_P28_Z;Dist Z;3.5;-3;3;-6;6;Deck # 2 LH vs Deck # 3 LH - H-Pitch;TRUE
+PART03_01R_X;Pos X;3695;-4;4;-6;6;Deck # 1 RH - Pos X;TRUE
+PART03_01R_Y;Pos Y;549;-4;4;-6;6;Deck # 1 RH - Pos Y;TRUE
+PART03_01R_Z;Pos Z;1176.9;-4;4;-6;6;Deck # 1 RH - Pos Z;TRUE
+PART03_01L_X;Pos X;3695;-4;4;-6;6;Deck # 1 LH - Pos X;TRUE
+PART03_01L_Y;Pos Y;-549;-4;4;-6;6;Deck # 1 LH - Pos Y;TRUE
+PART03_01L_Z;Pos Z;1176.9;-4;4;-6;6;Deck # 1 LH - Pos Z;TRUE
+PART03_P9_X;Dist X;0;-4;4;-8;8;Deck # 1 RH vs Deck # 1 LH - L-Pitch;TRUE
+PART03_P9_Y;Dist Y;1098;-2;2;-4;4;Deck # 1 RH vs Deck # 1 LH - W-Pitch;FALSE
+PART03_P9_Z;Dist Z;0;-4;4;-8;8;Deck # 1 RH vs Deck # 1 LH - H-Pitch;FALSE
+PART03_P10_X;Dist X;814;-4;4;-8;8;Deck # 1 RH vs Deck # 3 RH - L-Pitch;TRUE
+PART03_P10_Y;Dist Y;72.5;-4;4;-8;8;Deck # 1 RH vs Deck # 3 RH - W-Pitch;FALSE
+PART03_P10_Z;Dist Z;19.8;-4;4;-8;8;Deck # 1 RH vs Deck # 3 RH - H-Pitch;TRUE
+PART03_P11_X;Dist X;814;-4;4;-8;8;Deck # 1 RH vs Deck # 3 LH - L-Pitch;TRUE
+PART03_P11_Y;Dist Y;1170.5;-4;4;-8;8;Deck # 1 RH vs Deck # 3 LH - W-Pitch;FALSE
+PART03_P11_Z;Dist Z;19.8;-4;4;-8;8;Deck # 1 RH vs Deck # 3 LH - H-Pitch;FALSE
+PART03_P12_X;Dist X;1235;-4;4;-8;8;Deck # 1 RH vs Deck # 4 RH - L-Pitch;TRUE
+PART03_P12_Y;Dist Y;72.5;-4;4;-8;8;Deck # 1 RH vs Deck # 4 RH - W-Pitch;FALSE
+PART03_P12_Z;Dist Z;23.3;-4;4;-8;8;Deck # 1 RH vs Deck # 4 RH - H-Pitch;FALSE
+PART03_P13_X;Dist X;1235;-4;4;-8;8;Deck # 1 RH vs Deck # 4 LH - L-Pitch;TRUE
+PART03_P13_Y;Dist Y;1170.5;-4;4;-8;8;Deck # 1 RH vs Deck # 4 LH - W-Pitch;TRUE
+PART03_P13_Z;Dist Z;23.3;-4;4;-8;8;Deck # 1 RH vs Deck # 4 LH - H-Pitch;TRUE
+PART03_P14_X;Dist X;3275;-4;4;-8;8;Deck # 1 RH vs Cab # 1 RH - L-Pitch;TRUE
+PART03_P14_Y;Dist Y;89.4;-4;4;-8;8;Deck # 1 RH vs Cab # 1 RH - W-Pitch;FALSE
+PART03_P14_Z;Dist Z;105.5;-4;4;-8;8;Deck # 1 RH vs Cab # 1 RH - H-Pitch;FALSE
+PART03_P15_Y;Dist Y;1008.6;-3.5;3.5;-7;7;Deck # 1 LH vs Cab # 1 RH - W-Pitch;TRUE
+PART03_P16_Y;Dist Y;1170.5;-4;4;-8;8;Deck # 1 LH vs Deck # 3 RH - W-Pitch;TRUE
+PART03_P17_Y;Dist Y;72.5;-4;4;-8;8;Deck # 1 LH vs Deck # 3 LH - W-Pitch;TRUE
+PART03_P18_Y;Dist Y;1170.5;-4;4;-8;8;Deck # 1 LH vs Deck # 4 RH - W-Pitch;TRUE
+PART03_P19_Y;Dist Y;72.5;-4;4;-8;8;Deck # 1 LH vs Deck # 4 LH - W-Pitch;TRUE
+PART03_P17_Z;Dist Z;19.8;-3;3;-6;6;Deck # 1 LH vs Deck # 3 LH - H-Pitch;TRUE
+PART04_01R_X;Pos X;953;-4;4;-5;5;Center Hole RH - Pos X;FALSE
+PART04_01R_Y;Pos Y;458.8;-4;4;-5;5;Center Hole RH - Pos Y;FALSE
+PART04_01R_Z;Pos Z;1291.1;-3;3;-3.75;3.75;Center Hole RH - Pos Z;FALSE
+PART04_02R_X;Pos X;953;-4;4;-5;5;Inboard Hole RH - Pos X;TRUE
+PART04_02R_Y;Pos Y;407.2;-4;4;-5;5;Inboard Hole RH - Pos Y;TRUE
+PART04_02R_Z;Pos Z;1277;-3;3;-3.75;3.75;Inboard Hole RH - Pos Z;TRUE
+PART04_03R_X;Pos X;907.1;-4;4;-8;8;Front Hole RH - Pos X;TRUE
+PART04_03R_Y;Pos Y;486;-4;4;-8;8;Front Hole RH - Pos Y;TRUE
+PART04_03R_Z;Pos Z;1288;-3;3;-6;6;Front Hole RH - Pos Z;TRUE
+PART04_04R_X;Pos X;998.9;-4;4;-8;8;Rear Hole RH - Pos X;TRUE
+PART04_04R_Y;Pos Y;486;-4;4;-8;8;Rear Hole RH - Pos Y;TRUE
+PART04_04R_Z;Pos Z;1288;-3;3;-6;6;Rear Hole RH - Pos Z;TRUE
+PART04_01L_X;Pos X;953;-4;4;-5;5;Center Hole LH - Pos X;FALSE
+PART04_01L_Y;Pos Y;-458.8;-4;4;-5;5;Center Hole LH - Pos Y;FALSE
+PART04_01L_Z;Pos Z;1291.1;-3;3;-3.75;3.75;Center Hole LH - Pos Z;FALSE
+PART04_02L_X;Pos X;953;-4;4;-5;5;Inboard Hole LH - Pos X;TRUE
+PART04_02L_Y;Pos Y;-407.2;-4;4;-5;5;Inboard Hole LH - Pos Y;TRUE
+PART04_02L_Z;Pos Z;1277;-3;3;-3.75;3.75;Inboard Hole LH - Pos Z;TRUE
+PART04_03L_X;Pos X;907.1;-4;4;-8;8;Front Hole LH - Pos X;TRUE
+PART04_03L_Y;Pos Y;-486;-4;4;-8;8;Front Hole LH - Pos Y;TRUE
+PART04_03L_Z;Pos Z;1288;-3;3;-6;6;Front Hole LH - Pos Z;TRUE
+PART04_04L_X;Pos X;998.9;-4;4;-8;8;Rear Hole LH - Pos X;TRUE
+PART04_04L_Y;Pos Y;-486;-4;4;-8;8;Rear Hole LH - Pos Y;TRUE
+PART04_04L_Z;Pos Z;1288;-3;3;-6;6;Rear Hole LH - Pos Z;TRUE
+PART05_01R_X;Pos X;864.8;-4;4;-8;8;Front Hole RH - Pos X;TRUE
+PART05_01R_Y;Pos Y;389.2;-3;3;-6;6;Front Hole RH - Pos Y;TRUE
+PART05_01R_Z;Pos Z;1241.4;-3;3;-6;6;Front Hole RH - Pos Z;TRUE
+PART05_02R_X;Pos X;1045.8;-4;4;-8;8;Rear Hole RH - Pos X;TRUE
+PART05_02R_Y;Pos Y;389.2;-3;3;-6;6;Rear Hole RH - Pos Y;TRUE
+PART05_02R_Z;Pos Z;1194.5;-3;3;-6;6;Rear Hole RH - Pos Z;TRUE
+PART05_01L_X;Pos X;864.8;-4;4;-8;8;Front Hole LH - Pos X;TRUE
+PART05_01L_Y;Pos Y;-389.2;-3;3;-6;6;Front Hole LH - Pos Y;TRUE
+PART05_01L_Z;Pos Z;1241.4;-3;3;-6;6;Front Hole LH - Pos Z;TRUE
+PART05_02L_X;Pos X;1045.8;-4;4;-8;8;Rear Hole LH - Pos X;TRUE
+PART05_02L_Y;Pos Y;-389.2;-3;3;-6;6;Rear Hole LH - Pos Y;TRUE
+PART05_02L_Z;Pos Z;1194.5;-3;3;-6;6;Rear Hole LH - Pos Z;TRUE
+PART05_P1R_Y;Dist Y;0;-2;2;-4;4;Front Hole RH vs Rear Hole RH - W-Pitch;TRUE
+PART05_P1R_Z;Dist Z;46.9;-2;2;-4;4;Front Hole RH vs Rear Hole RH - H-Pitch;TRUE
+PART05_P1L_Y;Dist Y;0;-2;2;-4;4;Front Hole LH vs Rear Hole LH - W-Pitch;TRUE
+PART05_P1L_Z;Dist Z;46.9;-2;2;-4;4;Front Hole LH vs Rear Hole LH - H-Pitch;TRUE
+PART06_01R_X;Pos X;851.8;-3;3;-6;6;Front Hole RH - Pos X;TRUE
+PART06_01R_Y;Pos Y;266.8;-3;3;-6;6;Front Hole RH - Pos Y;TRUE
+PART06_01R_Z;Pos Z;1114;-3;3;-6;6;Front Hole RH - Pos Z;TRUE
+PART06_03R_X;Pos X;952.5;-3;3;-6;6;Rear Hole RH - Pos X;TRUE
+PART06_03R_Y;Pos Y;266.8;-3;3;-6;6;Rear Hole RH - Pos Y;TRUE
+PART06_03R_Z;Pos Z;1106.1;-3;3;-6;6;Rear Hole RH - Pos Z;TRUE
+PART06_04L_X;Pos X;851.8;-3;3;-6;6;Front Hole LH - Pos X;TRUE
+PART06_04L_Y;Pos Y;-246.8;-3;3;-6;6;Front Hole LH - Pos Y;TRUE
+PART06_04L_Z;Pos Z;1114;-3;3;-6;6;Front Hole LH - Pos Z;TRUE
+PART06_06L_X;Pos X;952.5;-3;3;-6;6;Rear Hole LH - Pos X;TRUE
+PART06_06L_Y;Pos Y;-246.8;-3;3;-6;6;Rear Hole LH - Pos Y;TRUE
+PART06_06L_Z;Pos Z;1106.1;-3;3;-6;6;Rear Hole LH - Pos Z;TRUE
+PART06_P1_X;Dist X;100.6;-3;3;-6;6;Front Hole RH vs Rear Hole RH - L-Pitch;TRUE
+PART06_P1_Y;Dist Y;0;-3;3;-6;6;Front Hole RH vs Rear Hole RH - W-Pitch;TRUE
+PART06_P1_Z;Dist Z;7.9;-3;3;-6;6;Front Hole RH vs Rear Hole RH - H-Pitch;TRUE
+PART06_P2_Y;Dist Y;510.7;-4;4;-6;6;Center Hole RH vs Center Hole LH - W-Pitch;TRUE
+PART06_P3_X;Dist X;100.6;-3;3;-6;6;Front Hole LH vs Rear Hole LH - L-Pitch;TRUE
+PART06_P3_Y;Dist Y;0;-3;3;-6;6;Front Hole LH vs Rear Hole LH - W-Pitch;TRUE
+PART06_P3_Z;Dist Z;7.9;-3;3;-6;6;Front Hole LH vs Rear Hole LH - H-Pitch;TRUE
+PART06_10R_X;Pos X;819.3;-3;3;-6;6;Front Hole RH - Pos X;TRUE
+PART06_10R_Y;Pos Y;266.6;-3;3;-6;6;Front Hole RH - Pos Y;TRUE
+PART06_10R_Z;Pos Z;1113.9;-3;3;-6;6;Front Hole RH - Pos Z;TRUE
+PART06_12R_X;Pos X;920;-3;3;-6;6;Rear Hole RH - Pos X;TRUE
+PART06_12R_Y;Pos Y;266.6;-3;3;-6;6;Rear Hole RH - Pos Y;TRUE
+PART06_12R_Z;Pos Z;1106;-3;3;-6;6;Rear Hole RH - Pos Z;TRUE
+PART06_07L_X;Pos X;819.3;-3;3;-6;6;Front Hole LH - Pos X;TRUE
+PART06_07L_Y;Pos Y;-246.6;-3;3;-6;6;Front Hole LH - Pos Y;TRUE
+PART06_07L_Z;Pos Z;1113.9;-3;3;-6;6;Front Hole LH - Pos Z;TRUE
+PART06_09L_X;Pos X;920;-3;3;-6;6;Rear Hole LH - Pos X;TRUE
+PART06_09L_Y;Pos Y;-246.6;-3;3;-6;6;Rear Hole LH - Pos Y;TRUE
+PART06_09L_Z;Pos Z;1106;-3;3;-6;6;Rear Hole LH - Pos Z;TRUE
+PART06_P4_X;Dist X;100.6;-3;3;-6;6;Front Hole RH vs Rear Hole RH - L-Pitch;TRUE
+PART06_P4_Y;Dist Y;0;-3;3;-6;6;Front Hole RH vs Rear Hole RH - W-Pitch;TRUE
+PART06_P4_Z;Dist Z;7.9;-3;3;-6;6;Front Hole RH vs Rear Hole RH - H-Pitch;TRUE
+PART06_P5_Y;Dist Y;510.4;-4;4;-6;6;Center Hole RH vs Center Hole LH - W-Pitch;TRUE
+PART06_P6_X;Dist X;100.6;-3;3;-6;6;Front Hole LH vs Rear Hole LH - L-Pitch;TRUE
+PART06_P6_Y;Dist Y;0;-3;3;-6;6;Front Hole LH vs Rear Hole LH - W-Pitch;TRUE
+PART06_P6_Z;Dist Z;7.9;-3;3;-6;6;Front Hole LH vs Rear Hole LH - H-Pitch;TRUE
+PART07_01R_X;Pos X;725.7;-3;3;-6;6;Slot Front LCA Front RH - Pos X;FALSE
+PART07_01R_Y;Pos Y;340.2;-3;3;-6;6;Slot Front LCA Front RH - Pos Y;FALSE
+PART07_01R_Z;Pos Z;777.7;-3;3;-6;6;Slot Front LCA Front RH - Pos Z;FALSE
+PART07_03R_X;Pos X;814.3;-3;3;-6;6;Slot Reart LCA Front RH - Pos X;FALSE
+PART07_03R_Y;Pos Y;339.9;-3;3;-6;6;Slot Reart LCA Front RH - Pos Y;FALSE
+PART07_03R_Z;Pos Z;780.3;-3;3;-6;6;Slot Reart LCA Front RH - Pos Z;FALSE
+PART07_04R_X;Pos X;1083.6;-3;3;-6;6;Slot Front LCA Rear RH - Pos X;FALSE
+PART07_04R_Y;Pos Y;339.8;-3;3;-6;6;Slot Front LCA Rear RH - Pos Y;FALSE
+PART07_04R_Z;Pos Z;788.7;-3;3;-6;6;Slot Front LCA Rear RH - Pos Z;FALSE
+PART07_06R_X;Pos X;1189.1;-3;3;-6;6;Slot Rear LCA Rear RH - Pos X;FALSE
+PART07_06R_Y;Pos Y;339.9;-3;3;-6;6;Slot Rear LCA Rear RH - Pos Y;FALSE
+PART07_06R_Z;Pos Z;791.9;-3;3;-6;6;Slot Rear LCA Rear RH - Pos Z;FALSE
+PART07_01L_X;Pos X;725.7;-3;3;-6;6;Slot Front LCA Front LH - Pos X;FALSE
+PART07_01L_Y;Pos Y;-340.2;-3;3;-6;6;Slot Front LCA Front LH - Pos Y;FALSE
+PART07_01L_Z;Pos Z;777.7;-3;3;-6;6;Slot Front LCA Front LH - Pos Z;FALSE
+PART07_03L_X;Pos X;814.3;-3;3;-6;6;Slot Reart LCA Front LH - Pos X;FALSE
+PART07_03L_Y;Pos Y;-339.9;-3;3;-6;6;Slot Reart LCA Front LH - Pos Y;FALSE
+PART07_03L_Z;Pos Z;780.3;-3;3;-6;6;Slot Reart LCA Front LH - Pos Z;FALSE
+PART07_07L_X;Pos X;1083.4;-3;3;-6;6;Slot Front LCA Rear LH - Pos X;FALSE
+PART07_07L_Y;Pos Y;-339.8;-3;3;-6;6;Slot Front LCA Rear LH - Pos Y;FALSE
+PART07_07L_Z;Pos Z;788.7;-3;3;-6;6;Slot Front LCA Rear LH - Pos Z;FALSE
+PART07_08L_X;Pos X;1189.3;-3;3;-6;6;Slot Rear LCA Rear LH - Pos X;FALSE
+PART07_08L_Y;Pos Y;-339.9;-3;3;-6;6;Slot Rear LCA Rear LH - Pos Y;FALSE
+PART07_08L_Z;Pos Z;791.9;-3;3;-6;6;Slot Rear LCA Rear LH - Pos Z;FALSE
+PART07_02R_X;Pos X;770.3;-3;3;-6;6;Center Hole LCA Front RH - Pos X;FALSE
+PART07_02R_Y;Pos Y;292.7;-3;3;-6;6;Center Hole LCA Front RH - Pos Y;FALSE
+PART07_02R_Z;Pos Z;767.2;-3;3;-6;6;Center Hole LCA Front RH - Pos Z;FALSE
+PART07_13L_X;Pos X;770.3;-3;3;-6;6;Center Hole LCA Front LH - Pos X;FALSE
+PART07_13L_Y;Pos Y;-292.7;-3;3;-6;6;Center Hole LCA Front LH - Pos Y;FALSE
+PART07_13L_Z;Pos Z;767.2;-3;3;-6;6;Center Hole LCA Front LH - Pos Z;FALSE
+PART07_05R_X;Pos X;1136.6;-3;3;-6;6;Center Hole LCA Rear RH - Pos X;FALSE
+PART07_05R_Y;Pos Y;282.8;-3;3;-6;6;Center Hole LCA Rear RH - Pos Y;FALSE
+PART07_05R_Z;Pos Z;761.2;-3;3;-6;6;Center Hole LCA Rear RH - Pos Z;FALSE
+PART07_14L_X;Pos X;1136.6;-3;3;-6;6;Center Hole LCA Rear LH - Pos X;FALSE
+PART07_14L_Y;Pos Y;-282.8;-3;3;-6;6;Center Hole LCA Rear LH - Pos Y;FALSE
+PART07_14L_Z;Pos Z;761.2;-3;3;-6;6;Center Hole LCA Rear LH - Pos Z;FALSE
+PART07_P1R_X;Dist X;76;-1;1;-1;1;Pocket LCA Front RH - L-Pitch;TRUE
+PART07_P1R_Y;Dist Y;0.2;-1.5;1.5;-2;2;Deviation Front vs Rear LCA Front RH - W-Pitch;FALSE
+PART07_P1R_Z;Dist Z;2.6;-1.5;1.5;-1.5;1.5;Deviation Front vs Rear LCA Front RH - H-Pitch;FALSE
+PART07_P1L_X;Dist X;76;-1;1;-1;1;Pocket LCA Front LH - L-Pitch;TRUE
+PART07_P1L_Y;Dist Y;0.2;-1.5;1.5;-2;2;Deviation Front vs Rear LCA Front LH - W-Pitch;FALSE
+PART07_P1L_Z;Dist Z;2.6;-1.5;1.5;-1.5;1.5;Deviation Front vs Rear LCA Front LH - H-Pitch;FALSE
+PART07_P2_X;Dist X;366.3;-3;3;-3;3;Span RH - L-Pitch;True
+PART07_P3_X;Dist X;366.3;-3;3;-3;3;Span LH - L-Pitch;True
+PART07_P4_X;Dist X;94.7;-3;3;-6;6;LCA Front Pt-Sim RH vs UCA Front RH - L-Pitch;TRUE
+PART07_P4_Y;Dist Y;49.1;-3;3;-6;6;LCA Front Pt-Sim RH vs UCA Front RH - W-Pitch;TRUE
+PART07_P4_Z;Dist Z;462.4;-3;3;-6;6;LCA Front Pt-Sim RH vs UCA Front RH - H-Pitch;TRUE
+PART07_P5_X;Dist X;94.7;-3;3;-6;6;LCA Front Pt-Sim LH vs UCA Front LH - L-Pitch;TRUE
+PART07_P5_Y;Dist Y;49.1;-3;3;-6;6;LCA Front Pt-Sim LH vs UCA Front LH - W-Pitch;TRUE
+PART07_P5_Z;Dist Z;462.4;-3;3;-6;6;LCA Front Pt-Sim LH vs UCA Front LH - H-Pitch;TRUE
+PART07_P6_X;Dist X;182.9;-3;3;-6;6;LCA Front Pt-Sim RH vs FSA Center Hole RH - L-Pitch;TRUE
+PART07_P6_Y;Dist Y;118.7;-3;3;-6;6;LCA Front Pt-Sim RH vs FSA Center Hole RH - W-Pitch;TRUE
+PART07_P6_Z;Dist Z;512;-3;3;-6;6;LCA Front Pt-Sim RH vs FSA Center Hole RH - H-Pitch;TRUE
+PART07_P7_X;Dist X;182.9;-3;3;-6;6;LCA Front Pt-Sim LH vs FSA Center Hole LH - L-Pitch;TRUE
+PART07_P7_Y;Dist Y;118.7;-3;3;-6;6;LCA Front Pt-Sim LH vs FSA Center Hole LH - W-Pitch;TRUE
+PART07_P7_Z;Dist Z;512;-3;3;-6;6;LCA Front Pt-Sim LH vs FSA Center Hole LH - H-Pitch;TRUE
+PART07_P8_X;Dist X;94.1;-1;1;-1;1;Pocket LCA Rear RH - L-Pitch;TRUE
+PART07_P8_Y;Dist Y;0;-1.5;1.5;-1.5;1.5;Deviation Front vs Rear LCA Rear RH - W-Pitch;FALSE
+PART07_P8_Z;Dist Z;3.1;-1.5;1.5;-1.5;1.5;Deviation Front vs Rear LCA Rear RH - H-Pitch;FALSE
+PART07_P9_X;Dist X;94.1;-1;1;-1;1;Pocket LCA Rear LH - L-Pitch;TRUE
+PART07_P9_Y;Dist Y;0;-1.5;1.5;-1.5;1.5;Deviation Front vs Rear LCA Rear LH - W-Pitch;FALSE
+PART07_P9_Z;Dist Z;3.1;-1.5;1.5;-1.88;1.88;Deviation Front vs Rear LCA Rear LH - H-Pitch;FALSE
+PART07_P10_Z;Dist Z;498.1;-3;3;-6;6;LCA Front Pt-Sim RH vs FSA RH Inboard Hole - H-Pitch;TRUE
+PART07_P11_Z;Dist Z;498.1;-3;3;-6;6;LCA Front Pt-Sim LH vs FSA LH Inboard Hole - H-Pitch;TRUE
+PART08_01R_X;Pos X;3380;-3;3;-3.75;3.75;Hole Inboard RH - Pos X;TRUE
+PART08_01R_Y;Pos Y;523.1;-3;3;-3.75;3.75;Hole Inboard RH - Pos Y;FALSE
+PART08_01R_Z;Pos Z;856;-3;3;-3.75;3.75;Hole Inboard RH - Pos Z;FALSE
+PART08_02R_X;Pos X;3380;-3;3;-3.75;3.75;Hole Outboard RH - Pos X;TRUE
+PART08_02R_Y;Pos Y;597;-3;3;-3.75;3.75;Hole Outboard RH - Pos Y;FALSE
+PART08_02R_Z;Pos Z;856;-3;3;-3.75;3.75;Hole Outboard RH - Pos Z;FALSE
+PART08_01R_SIM_02R_X;Pos X;3380;-3;3;-3.75;3.75;Pt-Sim Hole Inboard RH vs Hole Outboard RH - Pos X;TRUE
+PART08_01R_SIM_02R_Y;Pos Y;560;-3;3;-3.75;3.75;Pt-Sim Hole Inboard RH vs Hole Outboard RH - Pos Y;TRUE
+PART08_01R_SIM_02R_Z;Pos Z;856;-3;3;-3.75;3.75;Pt-Sim Hole Inboard RH vs Hole Outboard RH - Pos Z;TRUE
+PART08_01L_X;Pos X;3380;-3;3;-3.75;3.75;Hole Inboard LH - Pos X;TRUE
+PART08_01L_Y;Pos Y;-523.1;-3;3;-3.75;3.75;Hole Inboard LH - Pos Y;FALSE
+PART08_01L_Z;Pos Z;856;-3;3;-3.75;3.75;Hole Inboard LH - Pos Z;FALSE
+PART08_02L_X;Pos X;3380;-3;3;-3.75;3.75;Hole Outboard LH - Pos X;TRUE
+PART08_02L_Y;Pos Y;-597;-3;3;-3.75;3.75;Hole Outboard LH - Pos Y;FALSE
+PART08_02L_Z;Pos Z;856;-3;3;-3.75;3.75;Hole Outboard LH - Pos Z;FALSE
+PART08_01L_SIM_02L_X;Pos X;3380;-3;3;-3.75;3.75;Pt-Sim Hole Inboard LH vs Hole Outboard LH - Pos X;TRUE
+PART08_01L_SIM_02L_Y;Pos Y;-560;-3;3;-3.75;3.75;Pt-Sim Hole Inboard LH vs Hole Outboard LH - Pos Y;TRUE
+PART08_01L_SIM_02L_Z;Pos Z;856;-3;3;-3.75;3.75;Pt-Sim Hole Inboard LH vs Hole Outboard LH - Pos Z;TRUE
+PART08_P1R_X;Dist X;0;0;0.7;0;3.5;Deviation Hole Inboard RH vs Hole Outboard RH - L-Pitch;FALSE
+PART08_P1R_Y;Dist Y;73.9;0;1;-0.4;1.5;Pocket RH - W-Pitch;TRUE
+PART08_P1R_Z;Dist Z;0;0;0.7;0;3.5;Deviation Hole Inboard RH vs Hole Outboard RH - H-Pitch;FALSE
+PART08_P1L_X;Dist X;0;0;0.7;0;3.5;Deviation Hole Inboard RH vs Hole Outboard LH - L-Pitch;FALSE
+PART08_P1L_Y;Dist Y;73.9;0;1;-0.4;1.5;Pocket LH - W-Pitch;TRUE
+PART08_P1L_Z;Dist Z;0;0;0.7;0;3.5;Deviation Hole Inboard RH vs Hole Outboard LH - H-Pitch;FALSE
+PART08_P2_Y;Dist Y;1120;-3;3;-3.75;3.75;Pt-Sim RH vs Pt-Sim LH - W-Pitch;TRUE
+PARTA1_01R_X;Pos X;4715;-3;3;-6;6;Hole Inboard RH - Pos X;TRUE
+PARTA1_01R_Y;Pos Y;500;-3;3;-6;6;Hole Inboard RH - Pos Y;TRUE
+PARTA1_01R_Z;Pos Z;1080;-3;3;-6;6;Hole Inboard RH - Pos Z;TRUE
+PARTA1_02R_X;Pos X;4715;-3;3;-6;6;Hole Outboard RH - Pos X;TRUE
+PARTA1_02R_Y;Pos Y;590;-3;3;-6;6;Hole Outboard RH - Pos Y;TRUE
+PARTA1_02R_Z;Pos Z;1080;-3;3;-6;6;Hole Outboard RH - Pos Z;TRUE
+PARTA1_01R_SIM_02R_X;Pos X;4715;-3;3;-6;6;Pt-Sim Hole Inboard RH vs Hole Outboard RH - Pos X;TRUE
+PARTA1_01R_SIM_02R_Y;Pos Y;545;-3;3;-6;6;Pt-Sim Hole Inboard RH vs Hole Outboard RH - Pos Y;TRUE
+PARTA1_01R_SIM_02R_Z;Pos Z;1080;-3;3;-6;6;Pt-Sim Hole Inboard RH vs Hole Outboard RH - Pos Z;TRUE
+PARTA1_01L_X;Pos X;4715;-3;3;-6;6;Hole Inboard LH - Pos X;TRUE
+PARTA1_01L_Y;Pos Y;-500;-3;3;-6;6;Hole Inboard LH - Pos Y;TRUE
+PARTA1_01L_Z;Pos Z;1080;-3;3;-6;6;Hole Inboard LH - Pos Z;TRUE
+PARTA1_02L_X;Pos X;4715;-3;3;-6;6;Hole Outboard LH - Pos X;TRUE
+PARTA1_02L_Y;Pos Y;-590;-3;3;-6;6;Hole Outboard LH - Pos Y;TRUE
+PARTA1_02L_Z;Pos Z;1080;-3;3;-6;6;Hole Outboard LH - Pos Z;TRUE
+PARTA1_01L_SIM_02L_X;Pos X;4715;-3;3;-6;6;Pt-Sim Hole Inboard LH vs Hole Outboard LH - Pos X;TRUE
+PARTA1_01L_SIM_02L_Y;Pos Y;-545;-3;3;-6;6;Pt-Sim Hole Inboard LH vs Hole Outboard LH - Pos Y;TRUE
+PARTA1_01L_SIM_02L_Z;Pos Z;1080;-3;3;-6;6;Pt-Sim Hole Inboard LH vs Hole Outboard LH - Pos Z;TRUE
+PARTA1_P2R_X;Dist X;0;-1.5;1.5;-3;3;Deviation Hole Inboard RH vs Hole Outboard RH - L-Pitch;TRUE
+PARTA1_P2R_Z;Dist Z;0;-1.5;1.5;-3;3;Deviation Hole Inboard RH vs Hole Outboard RH - H-Pitch;TRUE
+PARTA1_P2L_X;Dist X;0;-1.5;1.5;-3;3;Deviation Hole Inboard LH vs Hole Outboard LH - L-Pitch;TRUE
+PARTA1_P2L_Z;Dist Z;0;-1.5;1.5;-3;3;Deviation Hole Inboard LH vs Hole Outboard LH - H-Pitch;TRUE
+PARTA1_P1_Y;Dist Y;1090;-3;3;-6;6;Pt-Sim RH vs Pt-Sim LH - W-Pitch;TRUE
+PARTA1_P3R_X;Dist X;1335;-3;3;-6;6;Center of Spring # 3 RH vs Center of Spring # 4 RH - L-Pitch;TRUE
+PARTA1_P3R_Y;Dist Y;15;-3;3;-6;6;Center of Spring # 3 RH vs Center of Spring # 4 RH - W-Pitch;TRUE
+PARTA1_P3R_Z;Dist Z;224;-3;3;-6;6;Center of Spring # 3 RH vs Center of Spring # 4 RH - H-Pitch;TRUE
+PARTA1_P4R_X;Dist X;632.1;-3;3;-6;6;Center of Spring # 3 RH vs Rear Bound Stopper Hole Front RH - L-Pitch;TRUE
+PARTA1_P4R_Y;Dist Y;25;-3;3;-6;6;Center of Spring # 3 RH vs Rear Bound Stopper Hole Front RH - W-Pitch;TRUE
+PARTA1_P4R_Z;Dist Z;198.8;-3;3;-6;6;Center of Spring # 3 RH vs Rear Bound Stopper Hole Front RH - H-Pitch;TRUE
+PARTA1_P5R_X;Dist X;522.3;-3;3;-6;6;Center of Spring # 3 RH vs Rear Shock Absorber RH - L-Pitch;TRUE
+PARTA1_P5R_Y;Dist Y;127.5;-3;3;-6;6;Center of Spring # 3 RH vs Rear Shock Absorber RH - W-Pitch;TRUE
+PARTA1_P5R_Z;Dist Z;362.4;-3;3;-6;6;Center of Spring # 3 RH vs Rear Shock Absorber RH - H-Pitch;TRUE
+PARTA1_P3L_X;Dist X;1335;-3;3;-6;6;Center of Spring # 3 LH vs Center of Spring # 4 LH - L-Pitch;TRUE
+PARTA1_P3L_Y;Dist Y;15;-3;3;-6;6;Center of Spring # 3 LH vs Center of Spring # 4 LH - W-Pitch;TRUE
+PARTA1_P3L_Z;Dist Z;224;-3;3;-6;6;Center of Spring # 3 LH vs Center of Spring # 4 LH - H-Pitch;TRUE
+PARTA1_P4L_X;Dist X;632.1;-3;3;-6;6;Center of Spring # 3 LH vs Rear Bound Stopper Hole Front LH - L-Pitch;TRUE
+PARTA1_P4L_Y;Dist Y;25;-3;3;-6;6;Center of Spring # 3 LH vs Rear Bound Stopper Hole Front LH - W-Pitch;TRUE
+PARTA1_P4L_Z;Dist Z;198.8;-3;3;-6;6;Center of Spring # 3 LH vs Rear Bound Stopper Hole Front LH - H-Pitch;TRUE
+PARTA1_P5L_X;Dist X;915;-3;3;-6;6;Center of Spring # 3 LH vs Rear Shock Absorber LH - L-Pitch;TRUE
+PARTA1_P5L_Y;Dist Y;127.5;-3;3;-6;6;Center of Spring # 3 LH vs Rear Shock Absorber LH - W-Pitch;TRUE
+PARTA1_P5L_Z;Dist Z;355.3;-3;3;-6;6;Center of Spring # 3 LH vs Rear Shock Absorber LH - H-Pitch;TRUE
+PARTA2_02R_X;Pos X;420;-3;3;-6;6;CM AUX Outboard Nut RH - Pos X;TRUE
+PARTA2_02R_Y;Pos Y;260;-3;3;-6;6;CM AUX Outboard Nut RH - Pos Y;TRUE
+PARTA2_02R_Z;Pos Z;872.3;-3;3;-6;6;CM AUX Outboard Nut RH - Pos Z;TRUE
+PARTA2_01R_X;Pos X;420;-3;3;-6;6;CM AUX Inboard Nut RH - Pos X;TRUE
+PARTA2_01R_Y;Pos Y;132;-3;3;-6;6;CM AUX Inboard Nut RH - Pos Y;TRUE
+PARTA2_01R_Z;Pos Z;872.3;-3;3;-6;6;CM AUX Inboard Nut RH - Pos Z;TRUE
+PARTA2_05L_X;Pos X;420;-3;3;-6;6;CM AUX Inboard Nut LH - Pos X;TRUE
+PARTA2_05L_Y;Pos Y;-153;-3;3;-6;6;CM AUX Inboard Nut LH - Pos Y;TRUE
+PARTA2_05L_Z;Pos Z;872.3;-3;3;-6;6;CM AUX Inboard Nut LH - Pos Z;TRUE
+PARTA2_02L_X;Pos X;420;-3;3;-6;6;CM AUX Outboard Nut LH - Pos X;TRUE
+PARTA2_02L_Y;Pos Y;-260;-3;3;-6;6;CM AUX Outboard Nut LH - Pos Y;TRUE
+PARTA2_02L_Z;Pos Z;872.3;-3;3;-6;6;CM AUX Outboard Nut LH - Pos Z;TRUE
+PARTA2_04R_X;Pos X;707.5;-3;3;-6;6;CM # 1 Outboard Nut RH - Pos X;TRUE
+PARTA2_04R_Y;Pos Y;216;-3;3;-6;6;CM # 1 Outboard Nut RH - Pos Y;TRUE
+PARTA2_04R_Z;Pos Z;788.6;-3;3;-6;6;CM # 1 Outboard Nut RH - Pos Z;TRUE
+PARTA2_03R_X;Pos X;707.5;-3;3;-6;6;CM # 1 Inboard Nut RH - Pos X;TRUE
+PARTA2_03R_Y;Pos Y;112.5;-3;3;-6;6;CM # 1 Inboard Nut RH - Pos Y;TRUE
+PARTA2_03R_Z;Pos Z;788.6;-3;3;-6;6;CM # 1 Inboard Nut RH - Pos Z;TRUE
+PARTA2_06L_X;Pos X;707.5;-3;3;-6;6;CM # 1 Inboard Nut LH - Pos X;TRUE
+PARTA2_06L_Y;Pos Y;-147;-3;3;-6;6;CM # 1 Inboard Nut LH - Pos Y;TRUE
+PARTA2_06L_Z;Pos Z;788.6;-3;3;-6;6;CM # 1 Inboard Nut LH - Pos Z;TRUE
+PARTA2_07L_X;Pos X;707.5;-3;3;-6;6;CM # 1 Outboard Nut LH - Pos X;TRUE
+PARTA2_07L_Y;Pos Y;-250.5;-3;3;-6;6;CM # 1 Outboard Nut LH - Pos Y;TRUE
+PARTA2_07L_Z;Pos Z;788.6;-3;3;-6;6;CM # 1 Outboard Nut LH - Pos Z;TRUE
+PARTA2_P1_X;Dist X;287.5;-2.5;2.5;-5;5;CM AUX Inboard Nut RH vs CM # 1 Inboard Nut RH - L-Pitch;TRUE
+PARTA2_P1_Y;Dist Y;19.5;-2.5;2.5;-5;5;CM AUX Inboard Nut RH vs CM # 1 Inboard Nut RH - W-Pitch;TRUE
+PARTA2_P1_Z;Dist Z;83.7;-3;3;-6;6;CM AUX Inboard Nut RH vs CM # 1 Inboard Nut RH - H-Pitch;TRUE
+PARTA2_P2_X;Dist X;287.5;-2.5;2.5;-5;5;CM AUX Outboard Nut RH vs CM # 1 Outboard Nut RH - L-Pitch;TRUE
+PARTA2_P2_Y;Dist Y;44;-2.5;2.5;-5;5;CM AUX Outboard Nut RH vs CM # 1 Outboard Nut RH - W-Pitch;TRUE
+PARTA2_P2_Z;Dist Z;83.7;-3;3;-6;6;CM AUX Outboard Nut RH vs CM # 1 Outboard Nut RH - H-Pitch;TRUE
+PARTA2_P3_X;Dist X;287.5;-2.5;2.5;-5;5;CM AUX Inboard Nut LH vs CM # 1 Inboard Nut LH - L-Pitch;TRUE
+PARTA2_P3_Y;Dist Y;6;-2.5;2.5;-5;5;CM AUX Inboard Nut LH vs CM # 1 Inboard Nut LH - W-Pitch;TRUE
+PARTA2_P3_Z;Dist Z;83.7;-3;3;-6;6;CM AUX Inboard Nut LH vs CM # 1 Inboard Nut LH - H-Pitch;TRUE
+PARTA2_P4_X;Dist X;287.5;-2.5;2.5;-5;5;CM AUX Outboard Nut LH vs CM # 1 Outboard Nut LH - L-Pitch;TRUE
+PARTA2_P4_Y;Dist Y;9.5;-2.5;2.5;-5;5;CM AUX Outboard Nut LH vs CM # 1 Outboard Nut LH - W-Pitch;TRUE
+PARTA2_P4_Z;Dist Z;83.7;-3;3;-6;6;CM AUX Outboard Nut LH vs CM # 1 Outboard Nut LH - H-Pitch;TRUE
+PARTA3_01R_X;Pos X;804.6;-4;4;-8;8;Buje Outboard RH - Pos X;FALSE
+PARTA3_01R_Y;Pos Y;181;-4;4;-8;8;Buje Outboard RH - Pos Y;FALSE
+PARTA3_01R_Z;Pos Z;848.1;-3;3;-6;6;Buje Outboard RH - Pos Z;TRUE
+PARTA3_01L_X;Pos X;804.6;-4;4;-8;8;Buje Inboard LH - Pos X;FALSE
+PARTA3_01L_Y;Pos Y;-181;-4;4;-8;8;Buje Inboard LH - Pos Y;FALSE
+PARTA3_01L_Z;Pos Z;848.1;-3;3;-6;6;Buje Inboard LH - Pos Z;TRUE
+PARTA3_P1_X;Dist X;0;-3;3;-6;6;Buje Outboard RH vs Buje Inboard LH - L-Pitch;TRUE
+PARTA3_P1_Y;Dist Y;362;-3;3;-6;6;Buje Outboard RH vs Buje Inboard LH - W-Pitch;TRUE
+PARTA3_P1_Z;Dist Z;0;-1.5;1.5;-3;3;Buje Outboard RH vs Buje Inboard LH - H-Pitch;TRUE
+PARTA3_P2_X;Dist X;34.5;-3;3;-6;6;LCA Front Pt-Sim RH vs Buje Outboard RH - L-Pitch;TRUE
+PARTA3_P2_Y;Dist Y;159.3;-3;3;-6;6;LCA Front Pt-Sim RH vs Buje Outboard RH - W-Pitch;TRUE
+PARTA3_P3_X;Dist X;34.5;-3;3;-6;6;LCA Front Pt-Sim LH vs Buje Outboard LH - L-Pitch;TRUE
+PARTA3_P3_Y;Dist Y;159.3;-3;3;-6;6;LCA Front Pt-Sim LH vs Buje Outboard LH - W-Pitch;TRUE
+PARTA4_01R_X;Pos X;750;-3;3;-3.75;3.75;CM # 1 Buje Inboard RH - Pos X;FALSE
+PARTA4_01R_Y;Pos Y;154.7;-3;3;-3.75;3.75;CM # 1 Buje Inboard RH - Pos Y;FALSE
+PARTA4_01R_Z;Pos Z;800.3;-3;3;-3.75;3.75;CM # 1 Buje Inboard RH - Pos Z;FALSE
+PARTA4_02L_X;Pos X;751.5;-3;3;-3.75;3.75;CM # 1 Buje Outboard LH - Pos X;FALSE
+PARTA4_02L_Y;Pos Y;-210;-3;3;-3.75;3.75;CM # 1 Buje Outboard LH - Pos Y;FALSE
+PARTA4_02L_Z;Pos Z;800.3;-3;3;-3.75;3.75;CM # 1 Buje Outboard LH - Pos Z;FALSE
+PARTA4_03L_X;Pos X;1187.1;-3;3;-3.75;3.75;CM # 2 Top Hole LH - Pos X;TRUE
+PARTA4_03L_Y;Pos Y;-142;-3;3;-3.75;3.75;CM # 2 Top Hole LH - Pos Y;TRUE
+PARTA4_03L_Z;Pos Z;789;-3;3;-3.75;3.75;CM # 2 Top Hole LH - Pos Z;TRUE
+PARTA4_P1_X;Dist X;437.1;-2;2;-4;4;CM # 1 Buje Inboard RH vs CM # 2 Top Hole LH - L-Pitch;TRUE
+PARTA4_P1_Y;Dist Y;296.7;-2;2;-4;4;CM # 1 Buje Inboard RH vs CM # 2 Top Hole LH - W-Pitch;TRUE
+PARTA4_P2_X;Dist X;435.6;-2;2;-4;4;CM # 1 Buje Outboard LH vs CM # 2 Top Hole LH - L-Pitch;TRUE
+PARTA4_P2_Y;Dist Y;68;-2;2;-4;4;CM # 1 Buje Outboard LH vs CM # 2 Top Hole LH - W-Pitch;TRUE
+PARTA5_01R_X;Pos X;1097.4;-3;3;-6;6;Nut RH - Pos X;TRUE
+PARTA5_01R_Y;Pos Y;477.1;-3;3;-6;6;Nut RH - Pos Y;TRUE
+PARTA5_01R_Z;Pos Z;871.5;-3;3;-6;6;Nut RH - Pos Z;TRUE
+PARTA5_01L_X;Pos X;1097.5;-3;3;-6;6;Nut LH - Pos X;TRUE
+PARTA5_01L_Y;Pos Y;-477.1;-3;3;-6;6;Nut LH - Pos Y;TRUE
+PARTA5_01L_Z;Pos Z;871.5;-3;3;-6;6;Nut LH - Pos Z;TRUE
+PARTA5_P1_Y;Dist Y;954.2;-3;3;-6;6;Nut RH vs Nut LH - W-Pitch;TRUE
+PARTA6_05R_X;Pos X;1788.7;-3;3;-6;6;Hole Front RH - Pos X;TRUE
+PARTA6_05R_Y;Pos Y;41;-3;3;-6;6;Hole Front RH - Pos Y;TRUE
+PARTA6_05R_Z;Pos Z;857.3;-3;3;-6;6;Hole Front RH - Pos Z;TRUE
+PARTA6_06R_X;Pos X;1813.6;-3;3;-6;6;Hole Rear RH - Pos X;TRUE
+PARTA6_06R_Y;Pos Y;41;-3;3;-6;6;Hole Rear RH - Pos Y;TRUE
+PARTA6_06R_Z;Pos Z;855.4;-3;3;-6;6;Hole Rear RH - Pos Z;TRUE
+PARTA6_09L_X;Pos X;1788.7;-3;3;-6;6;Hole Front LH - Pos X;TRUE
+PARTA6_09L_Y;Pos Y;-21;-3;3;-6;6;Hole Front LH - Pos Y;TRUE
+PARTA6_09L_Z;Pos Z;857.3;-3;3;-6;6;Hole Front LH - Pos Z;TRUE
+PARTA6_10L_X;Pos X;1813.6;-3;3;-6;6;Hole Rear LH - Pos X;TRUE
+PARTA6_10L_Y;Pos Y;-21;-3;3;-6;6;Hole Rear LH - Pos Y;TRUE
+PARTA6_10L_Z;Pos Z;855.4;-3;3;-6;6;Hole Rear LH - Pos Z;TRUE
+PARTA6_P1_X;Dist X;836.2;-4;4;-8;8;Hole Front RH vs Front Engine Mount Hole Rear RH - L-Pitch;TRUE
+PARTA6_P2_X;Dist X;836.2;-4;4;-8;8;Hole Front LH vs Front Engine Mount Hole Rear RH - L-Pitch;TRUE
+PARTA6_13R_X;Pos X;1709.4;-3;3;-6;6;Hole Front RH - Pos X;TRUE
+PARTA6_13R_Y;Pos Y;50;-3;3;-6;6;Hole Front RH - Pos Y;TRUE
+PARTA6_13R_Z;Pos Z;842.4;-3;3;-6;6;Hole Front RH - Pos Z;TRUE
+PARTA6_14R_X;Pos X;1734.4;-3;3;-6;6;Hole Rear RH - Pos X;TRUE
+PARTA6_14R_Y;Pos Y;50;-3;3;-6;6;Hole Rear RH - Pos Y;TRUE
+PARTA6_14R_Z;Pos Z;840.4;-3;3;-6;6;Hole Rear RH - Pos Z;TRUE
+PARTA6_15L_X;Pos X;1709.4;-3;3;-6;6;Hole Front LH - Pos X;TRUE
+PARTA6_15L_Y;Pos Y;-30;-3;3;-6;6;Hole Front LH - Pos Y;TRUE
+PARTA6_15L_Z;Pos Z;842.4;-3;3;-6;6;Hole Front LH - Pos Z;TRUE
+PARTA6_16L_X;Pos X;1734.4;-3;3;-6;6;Hole Rear LH - Pos X;TRUE
+PARTA6_16L_Y;Pos Y;-30;-3;3;-6;6;Hole Rear LH - Pos Y;TRUE
+PARTA6_16L_Z;Pos Z;840.4;-3;3;-6;6;Hole Rear LH - Pos Z;TRUE
+PARTA6_P3_X;Dist X;789.4;-4;4;-8;8;Hole Front RH vs Front Engine Mount Hole Rear RH - L-Pitch;TRUE
+PARTA6_P4_X;Dist X;789.4;-4;4;-8;8;Hole Front LH vs Front Engine Mount Hole Rear RH - L-Pitch;TRUE
+PARTA6_01R_X;Pos X;1788.7;-3;3;-6;6;Hole Front RH - Pos X;TRUE
+PARTA6_01R_Y;Pos Y;50;-3;3;-6;6;Hole Front RH - Pos Y;TRUE
+PARTA6_01R_Z;Pos Z;832.5;-3;3;-6;6;Hole Front RH - Pos Z;TRUE
+PARTA6_02R_X;Pos X;1813.6;-3;3;-6;6;Hole Rear RH - Pos X;TRUE
+PARTA6_02R_Y;Pos Y;50;-3;3;-6;6;Hole Rear RH - Pos Y;TRUE
+PARTA6_02R_Z;Pos Z;830.6;-3;3;-6;6;Hole Rear RH - Pos Z;TRUE
+PARTA6_03L_X;Pos X;1788.7;-3;3;-6;6;Hole Front LH - Pos X;TRUE
+PARTA6_03L_Y;Pos Y;-30;-3;3;-6;6;Hole Front LH - Pos Y;TRUE
+PARTA6_03L_Z;Pos Z;832.5;-3;3;-6;6;Hole Front LH - Pos Z;TRUE
+PARTA6_04L_X;Pos X;1813.6;-3;3;-6;6;Hole Rear LH - Pos X;TRUE
+PARTA6_04L_Y;Pos Y;-30;-3;3;-6;6;Hole Rear LH - Pos Y;TRUE
+PARTA6_04L_Z;Pos Z;830.6;-3;3;-6;6;Hole Rear LH - Pos Z;TRUE
+PARTA6_P5_X;Dist X;836.2;-4;4;-6;6;Hole Front RH vs Front Engine Mount Hole Rear RH - L-Pitch;TRUE
+PARTA6_P6_X;Dist X;836.2;-4;4;-6;6;Hole Front LH vs Front Engine Mount Hole Rear RH - L-Pitch;TRUE
+PARTA7_01R_X;Pos X;2703.8;-3;3;-6;6;Nut Front RH - Pos X;TRUE
+PARTA7_01R_Y;Pos Y;103.1;-3;3;-6;6;Nut Front RH - Pos Y;TRUE
+PARTA7_01R_Z;Pos Z;942;-3;3;-6;6;Nut Front RH - Pos Z;TRUE
+PARTA7_02R_X;Pos X;2823.3;-3;3;-6;6;Nut Rear RH - Pos X;TRUE
+PARTA7_02R_Y;Pos Y;110.8;-3;3;-6;6;Nut Rear RH - Pos Y;TRUE
+PARTA7_02R_Z;Pos Z;953.4;-3;3;-6;6;Nut Rear RH - Pos Z;TRUE
+PARTA7_03L_X;Pos X;2703.8;-3;3;-6;6;Nut Front LH - Pos X;TRUE
+PARTA7_03L_Y;Pos Y;-70.5;-3;3;-6;6;Nut Front LH - Pos Y;TRUE
+PARTA7_03L_Z;Pos Z;942;-3;3;-6;6;Nut Front LH - Pos Z;TRUE
+PARTA7_04L_X;Pos X;2823.3;-3;3;-6;6;Nut Rear LH - Pos X;TRUE
+PARTA7_04L_Y;Pos Y;-78.2;-3;3;-6;6;Nut Rear LH - Pos Y;TRUE
+PARTA7_04L_Z;Pos Z;953.4;-3;3;-6;6;Nut Rear LH - Pos Z;TRUE
+PARTA7_10R_X;Pos X;2813.6;-3;3;-6;6;Nut Front RH - Pos X;TRUE
+PARTA7_10R_Y;Pos Y;103.1;-3;3;-6;6;Nut Front RH - Pos Y;TRUE
+PARTA7_10R_Z;Pos Z;930;-3;3;-6;6;Nut Front RH - Pos Z;TRUE
+PARTA7_11R_X;Pos X;2875;-3;3;-4.5;4.5;Nut Rear RH - Pos X;TRUE
+PARTA7_11R_Y;Pos Y;107.8;-3;3;-4.5;4.5;Nut Rear RH - Pos Y;TRUE
+PARTA7_11R_Z;Pos Z;921.3;-3;3;-4.5;4.5;Nut Rear RH - Pos Z;TRUE
+PARTA7_13L_X;Pos X;2813.6;-3;3;-6;6;Nut Front LH - Pos X;TRUE
+PARTA7_13L_Y;Pos Y;-70.5;-3;3;-6;6;Nut Front LH - Pos Y;TRUE
+PARTA7_13L_Z;Pos Z;930;-3;3;-6;6;Nut Front LH - Pos Z;TRUE
+PARTA7_14L_X;Pos X;2875;-3;3;-4.5;4.5;Nut Rear LH - Pos X;TRUE
+PARTA7_14L_Y;Pos Y;-75.2;-3;3;-4.5;4.5;Nut Rear LH - Pos Y;TRUE
+PARTA7_14L_Z;Pos Z;921.3;-3;3;-4.5;4.5;Nut Rear LH - Pos Z;TRUE
+PARTA8_01R_X;Pos X;4617;-3;3;-6;6;Hole RH - Pos X;TRUE
+PARTA8_01R_Y;Pos Y;9.7;-3;3;-6;6;Hole RH - Pos Y;TRUE
+PARTA8_01R_Z;Pos Z;1179.6;-3;3;-6;6;Hole RH - Pos Z;TRUE
+PARTA8_02L_X;Pos X;4627.4;-3;3;-6;6;Hole LH - Pos X;TRUE
+PARTA8_02L_Y;Pos Y;-70.3;-3;3;-6;6;Hole LH - Pos Y;TRUE
+PARTA8_02L_Z;Pos Z;1181.2;-3;3;-6;6;Hole LH - Pos Z;TRUE
+PARTA9_03R_X;Pos X;3870.1;-4;4;-8;8;Pipe # 6 (Inboard) - Pos X;TRUE
+PARTA9_03R_Y;Pos Y;140.9;-4;4;-8;8;Pipe # 6 (Inboard) - Pos Y;TRUE
+PARTA9_03R_Z;Pos Z;985.8;-4;4;-8;8;Pipe # 6 (Inboard) - Pos Z;TRUE
+PARTA9_04R_X;Pos X;3870.1;-4;4;-8;8;Pipe # 7 (Outboard) - Pos X;TRUE
+PARTA9_04R_Y;Pos Y;384.7;-4;4;-8;8;Pipe # 7 (Outboard) - Pos Y;TRUE
+PARTA9_04R_Z;Pos Z;1010.3;-4;4;-8;8;Pipe # 7 (Outboard) - Pos Z;TRUE
+PARTA9_09R_X;Pos X;4977.5;-4;4;-8;8;Pipe # 8 (Inboard) - Pos X;TRUE
+PARTA9_09R_Y;Pos Y;424.7;-4;4;-8;8;Pipe # 8 (Inboard) - Pos Y;TRUE
+PARTA9_09R_Z;Pos Z;1071.3;-4;4;-8;8;Pipe # 8 (Inboard) - Pos Z;TRUE
+PARTA9_10R_X;Pos X;4974;-4;4;-8;8;Pipe # 8 (Outboard) - Pos X;TRUE
+PARTA9_10R_Y;Pos Y;448.7;-4;4;-8;8;Pipe # 8 (Outboard) - Pos Y;TRUE
+PARTA9_10R_Z;Pos Z;1071.3;-4;4;-8;8;Pipe # 8 (Outboard) - Pos Z;TRUE
+PARTA9_06R_X;Pos X;1995;-4;4;-8;8;Pipe # 1 - Pos X;TRUE
+PARTA9_06R_Y;Pos Y;440.7;-3;3;-6;6;Pipe # 1 - Pos Y;TRUE
+PARTA9_06R_Z;Pos Z;954.9;-3;3;-6;6;Pipe # 1 - Pos Z;TRUE
+PARTB0_01L_X;Pos X;3090;-3;3;-6;6;Front Band Hole Front - Pos X;TRUE
+PARTB0_01L_Y;Pos Y;-64.5;-3;3;-6;6;Front Band Hole Front - Pos Y;TRUE
+PARTB0_01L_Z;Pos Z;1040;-3;3;-6;6;Front Band Hole Front - Pos Z;TRUE
+PARTB0_02L_X;Pos X;3140;-3;3;-6;6;Front Band Hole Rear - Pos X;TRUE
+PARTB0_02L_Y;Pos Y;-64.5;-3;3;-6;6;Front Band Hole Rear - Pos Y;TRUE
+PARTB0_02L_Z;Pos Z;1040;-3;3;-6;6;Front Band Hole Rear - Pos Z;TRUE
+PARTB0_03L_X;Pos X;3115;-3;3;-6;6;Front Band Nut - Pos X;TRUE
+PARTB0_03L_Y;Pos Y;-465.4;-3;3;-6;6;Front Band Nut - Pos Y;TRUE
+PARTB0_03L_Z;Pos Z;887.5;-3;3;-6;6;Front Band Nut - Pos Z;TRUE
+PARTB0_04L_X;Pos X;3755.4;-3;3;-6;6;Rear Band Hole Front - Pos X;TRUE
+PARTB0_04L_Y;Pos Y;-74.3;-3;3;-6;6;Rear Band Hole Front - Pos Y;FALSE
+PARTB0_04L_Z;Pos Z;1061.8;-3;3;-6;6;Rear Band Hole Front - Pos Z;TRUE
+PARTB0_05L_X;Pos X;3805;-3;3;-6;6;Rear Band Hole Rear - Pos X;TRUE
+PARTB0_05L_Y;Pos Y;-71.2;-3;3;-6;6;Rear Band Hole Rear - Pos Y;TRUE
+PARTB0_05L_Z;Pos Z;1059.6;-3;3;-6;6;Rear Band Hole Rear - Pos Z;TRUE
+PARTB0_06L_X;Pos X;3806.5;-3;3;-6;6;Rear Band Nut - Pos X;TRUE
+PARTB0_06L_Y;Pos Y;-490;-3;3;-6;6;Rear Band Nut - Pos Y;TRUE
+PARTB0_06L_Z;Pos Z;1031.4;-3;3;-6;6;Rear Band Nut - Pos Z;TRUE
+PARTB0_P1_X;Dist X;665.2;-4;4;-6;6;Front Band Hole Rear vs Rear Band Hole Rear - L-Pitch;TRUE
+PARTB0_P1_Y;Dist Y;8.3;-3;3;-4.5;4.5;Front Band Hole Rear vs Rear Band Hole Rear - W-Pitch;TRUE
+PARTB0_P1_Z;Dist Z;19.6;-3;3;-4.5;4.5;Front Band Hole Rear vs Rear Band Hole Rear - Z-Pitch;TRUE
+PARTB0_P2_X;Dist X;0;-3;3;-4.5;4.5;Front Band Holes Pt-Sim vs Front Band Nut - L-Pitch;FALSE
+PARTB0_P2_Y;Dist Y;400.9;-3;3;-4.5;4.5;Front Band Holes Pt-Sim vs Front Band Nut - W-Pitch;FALSE
+PARTB0_P2_Z;Dist Z;152.5;-3;3;-4.5;4.5;Front Band Holes Pt-Sim vs Front Band Nut - H-Pitch;FALSE
+PARTB0_P3_X;Dist X;26.2;-3;3;-4.5;4.5;Rear Band Holes Pt-Sim vs Rear Band Nut - L-Pitch;FALSE
+PARTB0_P3_Y;Dist Y;417.2;-3;3;-4.5;4.5;Rear Band Holes Pt-Sim vs Rear Band Nut - W-Pitch;FALSE
+PARTB0_P3_Z;Dist Z;29.3;-3;3;-4.5;4.5;Rear Band Holes Pt-Sim vs Rear Band Nut - H-Pitch;FALSE
+PARTB1_07R_X;Pos X;3902.3;-3;3;-4.5;4.5;Hole RH - Pos X;TRUE
+PARTB1_07R_Y;Pos Y;432.5;-3;3;-4.5;4.5;Hole RH - Pos Y;TRUE
+PARTB1_07R_Z;Pos Z;1218.4;-3;3;-4.5;4.5;Hole RH - Pos Z;TRUE
+PARTB1_08L_X;Pos X;4295;-3;3;-4.5;4.5;Hole LH - Pos X;TRUE
+PARTB1_08L_Y;Pos Y;-432.5;-3;3;-4.5;4.5;Hole LH - Pos Y;TRUE
+PARTB1_08L_Z;Pos Z;1211.3;-3;3;-4.5;4.5;Hole LH - Pos Z;TRUE
+PARTB3_01R_X;Pos X;4012.1;-3;3;-6;6;Front Nut RH - Pos X;TRUE
+PARTB3_01R_Y;Pos Y;535;-3;3;-6;6;Front Nut RH - Pos Y;TRUE
+PARTB3_01R_Z;Pos Z;1054.8;-3;3;-6;6;Front Nut RH - Pos Z;TRUE
+PARTB3_02R_X;Pos X;4092.7;-3;3;-6;6;Rear Nut RH - Pos X;TRUE
+PARTB3_02R_Y;Pos Y;527;-3;3;-6;6;Rear Nut RH - Pos Y;TRUE
+PARTB3_02R_Z;Pos Z;1061.8;-3;3;-6;6;Rear Nut RH - Pos Z;TRUE
+PARTB3_01L_X;Pos X;4012.1;-3;3;-6;6;Front Nut LH - Pos X;TRUE
+PARTB3_01L_Y;Pos Y;-535;-3;3;-6;6;Front Nut LH - Pos Y;TRUE
+PARTB3_01L_Z;Pos Z;1054.8;-3;3;-6;6;Front Nut LH - Pos Z;TRUE
+PARTB3_02L_X;Pos X;4092.7;-3;3;-6;6;Rear Nut LH - Pos X;TRUE
+PARTB3_02L_Y;Pos Y;-527;-3;3;-6;6;Rear Nut LH - Pos Y;TRUE
+PARTB3_02L_Z;Pos Z;1061.8;-3;3;-6;6;Rear Nut LH - Pos Z;TRUE
+PARTB3_P1R_X;Dist X;80.6;-2;2;-4;4;Front Nut vs Rear Nut RH - L-Pitch;TRUE
+PARTB3_P1R_Y;Dist Y;8;-2;2;-4;4;Front Nut vs Rear Nut RH - W-Pitch;TRUE
+PARTB3_P1L_X;Dist X;80.6;-2;2;-4;4;Front Nut vs Rear Nut LH - L-Pitch;TRUE
+PARTB3_P1L_Y;Dist Y;8;-2;2;-4;4;Front Nut vs Rear Nut LH - W-Pitch;TRUE
+PARTB5_01R_X;Pos X;5000.7;-3;3;-6;6;Front Nut RH - Pos X;TRUE
+PARTB5_01R_Y;Pos Y;570;-3;3;-6;6;Front Nut RH - Pos Y;TRUE
+PARTB5_01R_Z;Pos Z;1072.9;-3;3;-6;6;Front Nut RH - Pos Z;TRUE
+PARTB5_02R_X;Pos X;5054.7;-3;3;-6;6;Rear Nut RH - Pos X;TRUE
+PARTB5_02R_Y;Pos Y;570;-3;3;-6;6;Rear Nut RH - Pos Y;TRUE
+PARTB5_02R_Z;Pos Z;1068.2;-3;3;-6;6;Rear Nut RH - Pos Z;TRUE
+PARTB5_01L_X;Pos X;5000.7;-3;3;-6;6;Front Nut LH - Pos X;TRUE
+PARTB5_01L_Y;Pos Y;-570;-3;3;-6;6;Front Nut LH - Pos Y;TRUE
+PARTB5_01L_Z;Pos Z;1072.9;-3;3;-6;6;Front Nut LH - Pos Z;TRUE
+PARTB5_02L_X;Pos X;5054.7;-3;3;-6;6;Rear Nut LH - Pos X;TRUE
+PARTB5_02L_Y;Pos Y;-570;-3;3;-6;6;Rear Nut LH - Pos Y;TRUE
+PARTB5_02L_Z;Pos Z;1068.2;-3;3;-6;6;Rear Nut LH - Pos Z;TRUE
+PARTB5_P1_Y;Dist Y;1140;-4;4;-8;8;Front Nut RH vs Front Nut LH - W-Pitch;TRUE
+PARTB5_P2_Y;Dist Y;1140;-4;4;-8;8;Rear Nut RH vs Rear Nut LH - W-Pitch;TRUE
+PARTCM0_01R_X;Pos X;420;-3;3;-6;6;CM#0 Datum RH - Pos X;FALSE
+PARTCM0_01R_Y;Pos Y;235;-3;3;-6;6;CM#0 Datum RH - Pos Y;FALSE
+PARTCM0_01R_Z;Pos Z;872.3;-3;3;-6;6;CM#0 Datum RH - Pos Z;FALSE
+PARTCM0_01L_X;Pos X;420;-3;3;-6;6;CM#0 Datum LH - Pos X;FALSE
+PARTCM0_01L_Y;Pos Y;-201;-3;3;-6;6;CM#0 Datum LH - Pos Y;FALSE
+PARTCM0_01L_Z;Pos Z;872.3;-3;3;-6;6;CM#0 Datum LH - Pos Z;FALSE
+PARTCM1_01R_X;Pos X;733.5;-3;3;-6;6;CM#1 Datum RH - Pos X;FALSE
+PARTCM1_01R_Y;Pos Y;80;-3;3;-6;6;CM#1 Datum RH - Pos Y;FALSE
+PARTCM1_01R_Z;Pos Z;788.6;-3;3;-6;6;CM#1 Datum RH - Pos Z;FALSE
+PARTCM1_01L_X;Pos X;733.5;-3;3;-6;6;CM#1 Datum LH - Pos X;FALSE
+PARTCM1_01L_Y;Pos Y;-152;-3;3;-6;6;CM#1 Datum LH - Pos Y;FALSE
+PARTCM1_01L_Z;Pos Z;788.6;-3;3;-6;6;CM#1 Datum LH - Pos Z;FALSE
+PARTCM2_01R_X;Pos X;1168.1;-3;3;-6;6;CM#2 Datum RH - Pos X;FALSE
+PARTCM2_01R_Y;Pos Y;145;-3;3;-6;6;CM#2 Datum RH - Pos Y;FALSE
+PARTCM2_01R_Z;Pos Z;738.4;-3;3;-6;6;CM#2 Datum RH - Pos Z;FALSE
+PARTCM2_01L_X;Pos X;1168.1;-3;3;-6;6;CM#2 Datum LH - Pos X;FALSE
+PARTCM2_01L_Y;Pos Y;-80;-3;3;-6;6;CM#2 Datum LH - Pos Y;FALSE
+PARTCM2_01L_Z;Pos Z;738.4;-3;3;-6;6;CM#2 Datum LH - Pos Z;FALSE
+PARTCM3_01R_X;Pos X;1792.7;-3;3;-6;6;CM#3 Datum RH - Pos X;FALSE
+PARTCM3_01R_Y;Pos Y;379;-3;3;-6;6;CM#3 Datum RH - Pos Y;FALSE
+PARTCM3_01R_Z;Pos Z;779;-3;3;-6;6;CM#3 Datum RH - Pos Z;FALSE
+PARTCM3_01L_X;Pos X;1792.7;-3;3;-6;6;CM#3 Datum LH - Pos X;FALSE
+PARTCM3_01L_Y;Pos Y;-379;-3;3;-6;6;CM#3 Datum LH - Pos Y;FALSE
+PARTCM3_01L_Z;Pos Z;779;-3;3;-6;6;CM#3 Datum LH - Pos Z;FALSE
+PARTCM4_01R_X;Pos X;2763;-3;3;-6;6;CM#4 Datum RH - Pos X;FALSE
+PARTCM4_01R_Y;Pos Y;260;-3;3;-6;6;CM#4 Datum RH - Pos Y;FALSE
+PARTCM4_01R_Z;Pos Z;965;-3;3;-6;6;CM#4 Datum RH - Pos Z;FALSE
+PARTCM4_01L_X;Pos X;2763;-3;3;-6;6;CM#4 Datum LH - Pos X;FALSE
+PARTCM4_01L_Y;Pos Y;-309.9;-3;3;-6;6;CM#4 Datum LH - Pos Y;FALSE
+PARTCM4_01L_Z;Pos Z;965;-3;3;-6;6;CM#4 Datum LH - Pos Z;FALSE
+PARTFT_01R_X;Pos X;3115;-3;3;-6;6;Fuel Tank Datum RH - Pos X;FALSE
+PARTFT_01R_Y;Pos Y;-161.5;-3;3;-6;6;Fuel Tank Datum RH - Pos Y;FALSE
+PARTFT_01R_Z;Pos Z;1034.8;-3;3;-6;6;Fuel Tank Datum RH - Pos Z;FALSE
+PARTFT_01L_X;Pos X;3115;-3;3;-6;6;Fuel Tank Datum LH - Pos X;FALSE
+PARTFT_01L_Y;Pos Y;-415.8;-3;3;-6;6;Fuel Tank Datum LH - Pos Y;FALSE
+PARTFT_01L_Z;Pos Z;982.9;-3;3;-6;6;Fuel Tank Datum LH - Pos Z;FALSE
+PARTCM5_01R_X;Pos X;3810;-3;3;-6;6;CM#5 Datum RH - Pos X;FALSE
+PARTCM5_01R_Y;Pos Y;233;-3;3;-6;6;CM#5 Datum RH - Pos Y;FALSE
+PARTCM5_01R_Z;Pos Z;1079.6;-3;3;-6;6;CM#5 Datum RH - Pos Z;FALSE
+PARTCM5_01L_X;Pos X;3810;-3;3;-6;6;CM#5 Datum LH - Pos X;FALSE
+PARTCM5_01L_Y;Pos Y;-230;-3;3;-6;6;CM#5 Datum LH - Pos Y;FALSE
+PARTCM5_01L_Z;Pos Z;1079.6;-3;3;-6;6;CM#5 Datum LH - Pos Z;FALSE
+PARTCM6_01R_X;Pos X;4616.1;-3;3;-6;6;CM#6 Datum RH - Pos X;FALSE
+PARTCM6_01R_Y;Pos Y;329.2;-3;3;-6;6;CM#6 Datum RH - Pos Y;FALSE
+PARTCM6_01R_Z;Pos Z;1100.4;-3;3;-6;6;CM#6 Datum RH - Pos Z;FALSE
+PARTCM6_01L_X;Pos X;4616.1;-3;3;-6;6;CM#6 Datum LH - Pos X;FALSE
+PARTCM6_01L_Y;Pos Y;-365;-3;3;-6;6;CM#6 Datum LH - Pos Y;FALSE
+PARTCM6_01L_Z;Pos Z;1100.1;-3;3;-6;6;CM#6 Datum LH - Pos Z;FALSE
+PARTCM4_02_X;Pos X;2821.3;-4;4;-8;8;Pipe CM#4 - Pos X;FALSE
+PARTCM4_02_Y;Pos Y;145.2;-4;4;-8;8;Pipe CM#4 - Pos Y;FALSE
+PARTCM4_02_Z;Pos Z;919;-4;4;-8;8;Pipe CM#4 - Pos Z;FALSE
+PARTCM1_02R_X;Pos X;632.5;-4;4;-8;8;CM#1 Mensula RH - Pos X;FALSE
+PARTCM1_02R_Y;Pos Y;171;-3;3;-6;6;CM#1 Mensula RH - Pos Y;FALSE
+PARTCM1_02R_Z;Pos Z;802;-3;3;-6;6;CM#1 Mensula RH - Pos Z;FALSE
+PARTCM1_02L_X;Pos X;632.5;-4;4;-8;8;CM#1 Mensula LH - Pos X;FALSE
+PARTCM1_02L_Y;Pos Y;-192;-3;3;-6;6;CM#1 Mensula LH - Pos Y;FALSE
+PARTCM1_02L_Z;Pos Z;802;-3;3;-6;6;CM#1 Mensula LH - Pos Z;FALSE
+PARTLARGLH_01_X;Pos X;1970;-3;3;-6;6;Datum Superior de larguero LH - Pos X;FALSE
+PARTLARGLH_01_Y;Pos Y;-513;-3;3;-6;6;Datum Superior de larguero LH - Pos Y;FALSE
+PARTLARGLH_01_Z;Pos Z;1000;-3;3;-6;6;Datum Superior de larguero LH - Pos Z;FALSE
+PART07_09R_X;Pos X;770.1;-3;3;-6;6;Pt-Sim LCA Front RH - Pos X;FALSE
+PART07_09R_Y;Pos Y;340.3;-3;3;-6;6;Pt-Sim LCA Front RH - Pos Y;FALSE
+PART07_09R_Z;Pos Z;778.9;-3;3;-6;6;Pt-Sim LCA Front RH - Pos Z;FALSE
+PART07_10R_X;Pos X;1136.4;-3;3;-3.75;3.75;Pt-Sim LCA Rear RH - Pos X;FALSE
+PART07_10R_Y;Pos Y;340.3;-3;3;-3.75;3.75;Pt-Sim LCA Rear RH - Pos Y;FALSE
+PART07_10R_Z;Pos Z;790.1;-3;3;-6;6;Pt-Sim LCA Rear RH - Pos Z;FALSE
+PART07_11L_X;Pos X;770.1;-3;3;-3.75;3.75;Pt-Sim LCA Front LH - Pos X;FALSE
+PART07_11L_Y;Pos Y;-340.3;-3;3;-3.75;3.75;Pt-Sim LCA Front LH - Pos Y;FALSE
+PART07_11L_Z;Pos Z;778.9;-3;3;-3.75;3.75;Pt-Sim LCA Front LH - Pos Z;FALSE
+PART07_12L_X;Pos X;1136.4;-3;3;-3.75;3.75;Pt-Sim LCA Rear LH - Pos X;FALSE
+PART07_12L_Y;Pos Y;-340.3;-3;3;-3.75;3.75;Pt-Sim LCA Rear LH - Pos Y;FALSE
+PART07_12L_Z;Pos Z;790.1;-3;3;-3.75;3.75;Pt-Sim LCA Rear LH - Pos Z;FALSE
+DATUM_1_LARG_LH_X;Pos X;1005;-3;3;-6;6;Datum 1 OP 1610 X;FALSE
+DATUM_1_LARG_LH_Y;Pos Y;-345;-3;3;-6;6;Datum 1 OP 1610 Y;FALSE
+DATUM_1_LARG_LH_Z;Pos Z;1005;-3;3;-6;6;Datum 1 OP 1610 Z;FALSE
+DATUM_2_LARG_LH_X;Pos X;2300;-3;3;-6;6;Datum 2 OP 1610 X;FALSE
+DATUM_2_LARG_LH_Y;Pos Y;-500;-3;3;-6;6;Datum 2 OP 1610 Y;FALSE
+DATUM_2_LARG_LH_Z;Pos Z;917;-3;3;-6;6;Datum 2 OP 1610 Z;FALSE
+DATUM_3_LARG_LH_X;Pos X;2918;-3;3;-6;6;Datum 3 OP 1610 X;FALSE
+DATUM_3_LARG_LH_Y;Pos Y;-500;-3;3;-6;6;Datum 3 OP 1610 Y;FALSE
+DATUM_3_LARG_LH_Z;Pos Z;915;-3;3;-6;6;Datum 3 OP 1610 Z;FALSE
+DATUM_4_LARG_LH_X;Pos X;4409;-3;3;-6;6;Datum 4 OP 1610 X;FALSE
+DATUM_4_LARG_LH_Y;Pos Y;-500;-3;3;-6;6;Datum 4 OP 1610 Y;FALSE
+DATUM_4_LARG_LH_Z;Pos Z;1085;-3;3;-6;6;Datum 4 OP 1610 Z;FALSE
+DATUM_1_EXT_LH_X;Pos X;299.4;-3;3;-6;6;Datum Extencion LH X;FALSE
+DATUM_1_EXT_LH_Y;Pos Y;-359.7;-3;3;-6;6;Datum Extencion LH Y;FALSE
+DATUM_1_EXT_LH_Z;Pos Z;1015;-3;3;-6;6;Datum Extencion LH Z;FALSE
+DATUM_1_LARG_RH_X;Pos X;1005;-3;3;-6;6;Datum 1 OP 1610 X;FALSE
+DATUM_1_LARG_RH_Y;Pos Y;345;-3;3;-6;6;Datum 1 OP 1610 Y;FALSE
+DATUM_1_LARG_RH_Z;Pos Z;1005;-3;3;-6;6;Datum 1 OP 1610 Z;FALSE
+DATUM_2_LARG_RH_X;Pos X;2300;-3;3;-6;6;Datum 2 OP 1610 X;FALSE
+DATUM_2_LARG_RH_Y;Pos Y;500;-3;3;-6;6;Datum 2 OP 1610 Y;FALSE
+DATUM_2_LARG_RH_Z;Pos Z;917;-3;3;-6;6;Datum 2 OP 1610 Z;FALSE
+DATUM_3_LARG_RH_X;Pos X;2918;-3;3;-6;6;Datum 3 OP 1610 X;FALSE
+DATUM_3_LARG_RH_Y;Pos Y;500;-3;3;-6;6;Datum 3 OP 1610 Y;FALSE
+DATUM_3_LARG_RH_Z;Pos Z;915;-3;3;-6;6;Datum 3 OP 1610 Z;FALSE
+DATUM_4_LARG_RH_X;Pos X;4409;-3;3;-6;6;Datum 4 OP 1610 X;FALSE
+DATUM_4_LARG_RH_Y;Pos Y;500;-3;3;-6;6;Datum 4 OP 1610 Y;FALSE
+DATUM_4_LARG_RH_Z;Pos Z;1085;-3;3;-6;6;Datum 4 OP 1610 Z;FALSE
+DATUM_1_EXT_RH_X;Pos X;299.4;-3;3;-6;6;Datum Extencion RH X;FALSE
+DATUM_1_EXT_RH_Y;Pos Y;359.7;-3;3;-6;6;Datum Extencion RH Y;FALSE
+DATUM_1_EXT_RH_Z;Pos Z;1015;-3;3;-6;6;Datum Extencion RH Z;FALSE
+EQUALIZER_CM#4_X;Pos X;2846.9;-3;3;-6;6;EQUALIZER CM#4_X;FALSE
+EQUALIZER_CM#4_Y;Pos Y;173;-3;3;-6;6;EQUALIZER CM#4_Y;FALSE
+EQUALIZER_CM#4_Z;Pos Z;992.5;-3;3;-6;6;EQUALIZER CM#4_Z;FALSE
+TUERCA_1_LARG_RH_X;Pos X;2871.9;-3;3;-6;6;TUERCA 1 LARG RH_X;FALSE
+TUERCA_1_LARG_RH_Y;Pos Y;500;-3;3;-6;6;TUERCA 1 LARG RH_Y;FALSE
+TUERCA_1_LARG_RH_Z;Pos Z;968.1;-3;3;-6;6;TUERCA 1 LARG RH_Z;FALSE
+TUERCA_2_LARG_RH_X;Pos X;2937.9;-3;3;-6;6;TUERCA 2 LARG RH_X;FALSE
+TUERCA_2_LARG_RH_Y;Pos Y;500;-3;3;-6;6;TUERCA 2 LARG RH_Y;FALSE
+TUERCA_2_LARG_RH_Z;Pos Z;968.1;-3;3;-6;6;TUERCA 2 LARG RH_Z;FALSE
+TUERCA_3_LARG_RH_X;Pos X;3102.9;-3;3;-6;6;TUERCA 3 LARG RH_X;FALSE
+TUERCA_3_LARG_RH_Y;Pos Y;500;-3;3;-6;6;TUERCA 3 LARG RH_Y;FALSE
+TUERCA_3_LARG_RH_Z;Pos Z;968.1;-3;3;-6;6;TUERCA 3 LARG RH_Z;FALSE
+TUERCA_4_LARG_RH_X;Pos X;3142.9;-3;3;-6;6;TUERCA 4 LARG RH_X;FALSE
+TUERCA_4_LARG_RH_Y;Pos Y;500;-3;3;-6;6;TUERCA 4 LARG RH_Y;FALSE
+TUERCA_4_LARG_RH_Z;Pos Z;968.1;-3;3;-6;6;TUERCA 4 LARG RH_Z;FALSE
+TUERCA_EXT_TB_L_X;Pos X;678.3;-3;3;-6;6;TUERCA EXTENSION LH_X;FALSE
+TUERCA_EXT_TB_L_Y;Pos Y;-345;-3;3;-6;6;TUERCA EXTENSION LH_Y;FALSE
+TUERCA_EXT_TB_L_Z;Pos Z;1050.7;-3;3;-6;6;TUERCA EXTENSION LH_Z;FALSE
+TUERCA_EXT_TB_R_X;Pos X;678.3;-3;3;-6;6;TUERCA EXTENSION RH_X;FALSE
+TUERCA_EXT_TB_R_Y;Pos Y;345;-3;3;-6;6;TUERCA EXTENSION RH_Y;FALSE
+TUERCA_EXT_TB_R_Z;Pos Z;1050.7;-3;3;-6;6;TUERCA EXTENSION RH_Z;FALSE
+CM#4_4X4_P1;Dist Y;173.6;-2;2;-4;4;Center Bearings 4X4 W-Pitch Rear (from customer reference);FALSE
+CM#4_4X4_P2;Dist Y;183;-2;2;-4;4;Center Bearings 4X4 W-Pitch Front (from customer reference);FALSE
+PARTA7_01R_A;Angle;-7.3;-2;2;-2;2;Center Bearing 4X2 Front Hole RH Angle;FALSE
+PARTA7_03L_A;Angle;-7.3;-2;2;-2;2;Center Bearing 4X2 Front Hole LH Angle;FALSE
+BUMPER_TOP_RH_X;Pos X;1119.93;-4;4;-6;6;Front Bumper Top Hole RH Pos X;FALSE
+BUMPER_TOP_RH_Y;Pos Y;438.91;-4;4;-6;6;Front Bumper Top Hole RH Pos Y;FALSE
+BUMPER_TOP_RH_Z;Pos Z;989.86;-4;4;-6;6;Front Bumper Top Hole RH Pos Z;FALSE
+LARG_FRONT_HOLE_OUT_RH_X;Pos X;1207.7;-4;4;-6;6;Larguero Front Hole RH Pos X;FALSE
+LARG_FRONT_HOLE_OUT_RH_Y;Pos Y;417.9;-4;4;-6;6;Larguero Front Hole RH Pos Y;FALSE
+LARG_FRONT_HOLE_OUT_RH_Z;Pos Z;1041.3;-4;4;-6;6;Larguero Front Hole RH Pos Z;FALSE
+BUMPER_TOP_LH_X;Pos X;1119.93;-4;4;-6;6;Front Bumper Top Hole LH Pos X;FALSE
+BUMPER_TOP_LH_Y;Pos Y;-438.91;-4;4;-6;6;Front Bumper Top Hole LH Pos Y;FALSE
+BUMPER_TOP_LH_Z;Pos Z;989.86;-4;4;-6;6;Front Bumper Top Hole LH Pos Z;FALSE
+LARG_FRONT_HOLE_OUT_LH_X;Pos X;1207.7;-4;4;-6;6;Larguero Front Hole LH Pos X;FALSE
+LARG_FRONT_HOLE_OUT_LH_Y;Pos Y;-417.9;-4;4;-6;6;Larguero Front Hole LH Pos Y;FALSE
+LARG_FRONT_HOLE_OUT_LH_Z;Pos Z;1041.3;-4;4;-6;6;Larguero Front Hole LH Pos Z;FALSE
+CM1_BUJE_RR_RH_X;Pos X;804.6;-3;3;-6;6;CM#1 Buje trasero RH Pos X;FALSE
+CM1_BUJE_RR_RH_Y;Pos Y;181;-3;3;-6;6;CM#1 Buje trasero RH Pos Y;FALSE
+CM1_BUJE_RR_LH_X;Pos X;804.6;-3;3;-6;6;CM#1 Buje trasero LH Pos X;FALSE
+CM1_BUJE_RR_LH_Y;Pos Y;-181;-3;3;-6;6;CM#1 Buje trasero LH Pos Y;FALSE
+JG1_PART;Pos X;11;1;3;1;3;Feature A;TRUE
+JG1_FB;Pos X;11;1;3;1;3;Feature B;TRUE
+JG1_FC;Pos X;11;1;3;1;3;Feature C;TRUE
+JG2_FD;Pos X;11;1;3;1;3;Feature D;TRUE
+JG2_FE;Pos X;11;1;3;1;3;Feature E;TRUE
+JG2_FF;Pos X;11;1;3;1;3;Feature F;TRUE
+JG3_FG;Pos X;11;1;3;1;3;Feature G;TRUE
+JG3_FH;Pos X;11;1;3;1;3;Feature H;TRUE
+JG3_FI;Pos X;11;1;3;1;3;Feature I;TRUE
+PART02_05R_X;Pos X;1527.1;-4;4;-8;8;Cab # 2 RH - Pos X;TRUE
+PART02_05R_Y;Pos Y;620.4;-4;4;-8;8;Cab # 2 RH - Pos Y;TRUE
+PART02_05R_Z;Pos Z;912.5;-4;4;-6;6;Cab # 2 RH - Pos Z;TRUE
+PART02_05L_X;Pos X;1527.1;-4;4;-8;8;Cab # 2 LH - Pos X;TRUE
+PART02_05L_Y;Pos Y;-620.4;-4;4;-8;8;Cab # 2 LH - Pos Y;TRUE
+PART02_05L_Z;Pos Z;912.5;-4;4;-6;6;Cab # 2 LH - Pos Z;TRUE
+PART04_05R_X;Pos X;915.5;-4;4;-5;5;Front Hole RH - Pos X;TRUE
+PART04_05R_Y;Pos Y;496.9;-4;4;-5;5;Front Hole RH - Pos Y;TRUE
+PART04_05R_Z;Pos Z;1289.8;-3;3;-3.75;3.75;Front Hole RH - Pos Z;TRUE
+PART04_06R_X;Pos X;990.5;-4;4;-8;8;Rear Hole RH - Pos X;TRUE
+PART04_06R_Y;Pos Y;496.9;-4;4;-8;8;Rear Hole RH - Pos Y;TRUE
+PART04_06R_Z;Pos Z;1289.8;-3;3;-6;6;Rear Hole RH - Pos Z;TRUE
+PART04_07R_X;Pos X;990.5;-4;4;-8;8;Inboard Hole RH - Pos X;TRUE
+PART04_07R_Y;Pos Y;422.6;-4;4;-8;8;Inboard Hole RH - Pos Y;TRUE
+PART04_07R_Z;Pos Z;1279.4;-3;3;-6;6;Inboard Hole RH - Pos Z;TRUE
+PART04_05L_X;Pos X;915.5;-4;4;-5;5;Front Hole LH - Pos X;TRUE
+PART04_05L_Y;Pos Y;-496.9;-4;4;-5;5;Front Hole LH - Pos Y;TRUE
+PART04_05L_Z;Pos Z;1289.8;-3;3;-3.75;3.75;Front Hole LH - Pos Z;TRUE
+PART04_06L_X;Pos X;990.5;-4;4;-8;8;Rear Hole LH - Pos X;TRUE
+PART04_06L_Y;Pos Y;-496.9;-4;4;-8;8;Rear Hole LH - Pos Y;TRUE
+PART04_06L_Z;Pos Z;1289.8;-3;3;-6;6;Rear Hole LH - Pos Z;TRUE
+PART04_07L_X;Pos X;990.5;-4;4;-8;8;Inboard Hole LH - Pos X;TRUE
+PART04_07L_Y;Pos Y;-422.6;-4;4;-8;8;Inboard Hole LH - Pos Y;TRUE
+PART04_07L_Z;Pos Z;1279.4;-3;3;-6;6;Inboard Hole LH - Pos Z;TRUE
+PART06_13R_X;Pos X;829.5;-3;3;-6;6;Front Hole RH - Pos X;TRUE
+PART06_13R_Y;Pos Y;294.4;-3;3;-6;6;Front Hole RH - Pos Y;TRUE
+PART06_13R_Z;Pos Z;1121.2;-3;3;-6;6;Front Hole RH - Pos Z;TRUE
+PART06_14R_X;Pos X;967.1;-3;3;-6;6;Rear Hole RH - Pos X;TRUE
+PART06_14R_Y;Pos Y;294.4;-3;3;-6;6;Rear Hole RH - Pos Y;TRUE
+PART06_14R_Z;Pos Z;1110.4;-3;3;-6;6;Rear Hole RH - Pos Z;TRUE
+PART06_13L_X;Pos X;829.5;-3;3;-6;6;Front Hole LH - Pos X;TRUE
+PART06_13L_Y;Pos Y;-274.4;-3;3;-6;6;Front Hole LH - Pos Y;TRUE
+PART06_13L_Z;Pos Z;1121.2;-3;3;-6;6;Front Hole LH - Pos Z;TRUE
+PART06_14L_X;Pos X;967.1;-3;3;-6;6;Rear Hole LH - Pos X;TRUE
+PART06_14L_Y;Pos Y;-274.4;-3;3;-6;6;Rear Hole LH - Pos Y;TRUE
+PART06_14L_Z;Pos Z;1110.4;-3;3;-6;6;Rear Hole LH - Pos Z;TRUE
+PART07_15R_X;Pos X;725.7;-3;3;-6;6;LCA Front RH - Slot Front - Pos X;FALSE
+PART07_15R_Y;Pos Y;340.2;-3;3;-6;6;LCA Front RH - Slot Front - Pos Y;FALSE
+PART07_15R_Z;Pos Z;777.8;-3;3;-6;6;LCA Front RH - Slot Front - Pos Z;FALSE
+PART07_16R_X;Pos X;813.6;-3;3;-6;6;LCA Front RH - Slot Rear - Pos X;FALSE
+PART07_16R_Y;Pos Y;340;-3;3;-6;6;LCA Front RH - Slot Rear - Pos Y;FALSE
+PART07_16R_Z;Pos Z;780.3;-3;3;-6;6;LCA Front RH - Slot Rear - Pos Z;FALSE
+PART07_17R_X;Pos X;1143.6;-3;3;-6;6;LCA Rear RH - Slot Front - Pos X;FALSE
+PART07_17R_Y;Pos Y;340;-3;3;-6;6;LCA Rear RH - Slot Front - Pos Y;FALSE
+PART07_17R_Z;Pos Z;790.4;-3;3;-6;6;LCA Rear RH - Slot Front - Pos Z;FALSE
+PART07_18R_X;Pos X;1249.2;-3;3;-6;6;LCA Rear RH - Slot Rear - Pos X;FALSE
+PART07_18R_Y;Pos Y;339.9;-3;3;-6;6;LCA Rear RH - Slot Rear - Pos Y;FALSE
+PART07_18R_Z;Pos Z;793.8;-3;3;-6;6;LCA Rear RH - Slot Rear - Pos Z;FALSE
+PART07_19L_X;Pos X;725.7;-3;3;-6;6;LCA Front LH - Slot Front - Pos X;FALSE
+PART07_19L_Y;Pos Y;-340.2;-3;3;-6;6;LCA Front LH - Slot Front - Pos Y;FALSE
+PART07_19L_Z;Pos Z;777.7;-3;3;-6;6;LCA Front LH - Slot Front - Pos Z;FALSE
+PART07_20L_X;Pos X;813.6;-3;3;-6;6;LCA Front LH - Slot Rear - Pos X;FALSE
+PART07_20L_Y;Pos Y;-340;-3;3;-6;6;LCA Front LH - Slot Rear - Pos Y;FALSE
+PART07_20L_Z;Pos Z;780.3;-3;3;-6;6;LCA Front LH - Slot Rear - Pos Z;FALSE
+PART07_21L_X;Pos X;1143.6;-3;3;-6;6;LCA Rear LH - Slot Front - Pos X;FALSE
+PART07_21L_Y;Pos Y;-340;-3;3;-6;6;LCA Rear LH - Slot Front - Pos Y;FALSE
+PART07_21L_Z;Pos Z;790.4;-3;3;-6;6;LCA Rear LH - Slot Front - Pos Z;FALSE
+PART07_22L_X;Pos X;1249.2;-3;3;-6;6;LCA Rear LH - Slot Rear - Pos X;FALSE
+PART07_22L_Y;Pos Y;-339.9;-3;3;-6;6;LCA Rear LH - Slot Rear - Pos Y;FALSE
+PART07_22L_Z;Pos Z;793.6;-3;3;-6;6;LCA Rear LH - Slot Rear - Pos Z;FALSE
+PART07_23R_X;Pos X;770.1;-3;3;-6;6;LCA Front RH - Pt-Sim - Pos X;FALSE
+PART07_23R_Y;Pos Y;340.3;-3;3;-6;6;LCA Front RH - Pt-Sim - Pos Y;FALSE
+PART07_23R_Z;Pos Z;778.9;-3;3;-6;6;LCA Front RH - Pt-Sim - Pos Z;FALSE
+PART07_24L_X;Pos X;770.1;-3;3;-6;6;LCA Front LH - Pt-Sim - Pos X;FALSE
+PART07_24L_Y;Pos Y;-340.3;-3;3;-6;6;LCA Front LH - Pt-Sim - Pos Y;FALSE
+PART07_24L_Z;Pos Z;778.9;-3;3;-6;6;LCA Front LH - Pt-Sim - Pos Z;FALSE
+PART07_25R_X;Pos X;1196.4;-3;3;-6;6;LCA Rear RH - Pt-Sim - Pos X;FALSE
+PART07_25R_Y;Pos Y;340.4;-3;3;-6;6;LCA Rear RH - Pt-Sim - Pos Y;FALSE
+PART07_25R_Z;Pos Z;791.8;-3;3;-6;6;LCA Rear RH - Pt-Sim - Pos Z;FALSE
+PART07_26L_X;Pos X;1196.4;-3;3;-6;6;LCA Rear LH - Pt-Sim - Pos X;FALSE
+PART07_26L_Y;Pos Y;-340.4;-3;3;-6;6;LCA Rear LH - Pt-Sim - Pos Y;FALSE
+PART07_26L_Z;Pos Z;791.8;-3;3;-6;6;LCA Rear LH - Pt-Sim - Pos Z;FALSE
+PART07_P12_X;Dist X;76.1;-1;1;-1;1;LCA Front RH - Pocket;TRUE
+PART07_P12_Y;Dist Y;0.2;-1.5;1.5;-2;2;LCA Front RH - Rel Slots Front vs Rear - Pos Y;FALSE
+PART07_P12_Z;Dist Z;2.2;-1.5;1.5;-1.5;1.5;LCA Front RH - Rel Slots Front vs Rear - Pos Z;FALSE
+PART07_P13_X;Dist X;76.1;-1;1;-1;1;LCA Front LH - Pocket;TRUE
+PART07_P13_Y;Dist Y;0.2;-1.5;1.5;-2;2;LCA Front LH - Rel Slots Front vs Rear - Pos Y;FALSE
+PART07_P13_Z;Dist Z;2.3;-1.5;1.5;-1.5;1.5;LCA Front LH - Rel Slots Front vs Rear - Pos Z;FALSE
+PART07_P14_X;Dist X;94.2;-3;3;-2;2;LCA Rear RH - Pocket;TRUE
+PART07_P14_Y;Dist Y;0.1;-3;3;-2;2;LCA Rear RH - Rel Slots Front vs Rear - Pos Y;TRUE
+PART07_P14_Z;Dist Z;3;-3;3;-6;6;LCA Rear RH - Rel Slots Front vs Rear - Pos Z;TRUE
+PART07_P15_X;Dist X;94.2;-3;3;-6;6;LCA Rear LH - Pocket;TRUE
+PART07_P15_Y;Dist Y;0.1;-3;3;-6;6;LCA Rear LH - Rel Slots Front vs Rear - Pos Y;TRUE
+PART07_P15_Z;Dist Z;2.9;-3;3;-6;6;LCA Rear LH - Rel Slots Front vs Rear - Pos Z;TRUE
+PART07_P16_X;Dist X;426.5;-3;3;-6;6;Span RH;TRUE
+PART07_P17_X;Dist X;426.5;-3;3;-6;6;Span LH;TRUE
+PART07_P18_X;Dist X;220.4;-3;3;-6;6;LCA Front Pt-Sim RH vs FSA RH Inboard Rear Hole - Pos X;TRUE
+PART07_P19_X;Dist X;220.4;-3;3;-6;6;LCA Front Pt-Sim LH vs FSA LH Inboard Rear Hole - Pos X;TRUE
+PART07_27R_X;Pos X;725.8;-3;3;-6;6;Hole Buje Upper Front RH - Pos X;TRUE
+PART07_27R_Y;Pos Y;248;-3;3;-6;6;Hole Buje Upper Front RH - Pos Y;TRUE
+PART07_27R_Z;Pos Z;958.8;-3;3;-6;6;Hole Buje Upper Front RH - Pos Z;TRUE
+PART07_28R_X;Pos X;804;-3;3;-6;6;Hole Buje Upper Rear RH - Pos X;TRUE
+PART07_28R_Y;Pos Y;248;-1;1;-1;1;Hole Buje Upper Rear RH - Pos Y;TRUE
+PART07_28R_Z;Pos Z;958.8;-1.5;1.5;-1.5;1.5;Hole Buje Upper Rear RH - Pos Z;FALSE
+PART07_29R_X;Pos X;654.8;-1.5;1.5;-1.5;1.5;Hole Buje Lower Front RH - Pos X;FALSE
+PART07_29R_Y;Pos Y;257.5;-1;1;-1;1;Hole Buje Lower Front RH - Pos Y;TRUE
+PART07_29R_Z;Pos Z;825.3;-1.5;1.5;-1.5;1.5;Hole Buje Lower Front RH - Pos Z;FALSE
+PART07_30R_X;Pos X;804;-1.5;1.5;-1.9;1.9;Hole Buje Lower Rear RH - Pos X;FALSE
+PART07_30R_Y;Pos Y;257.5;-3;3;-6;6;Hole Buje Lower Rear RH - Pos Y;TRUE
+PART07_30R_Z;Pos Z;825.3;-3;3;-6;6;Hole Buje Lower Rear RH - Pos Z;TRUE
+PART07_31L_X;Pos X;654.8;-1.5;1.5;-1.5;1.5;Hole Buje Lower Front LH - Pos X;FALSE
+PART07_31L_Y;Pos Y;-257.5;-1;1;-1;1;Hole Buje Lower Front LH - Pos Y;TRUE
+PART07_31L_Z;Pos Z;825.3;-1.5;1.5;-1.5;1.5;Hole Buje Lower Front LH - Pos Z;FALSE
+PART07_32L_X;Pos X;804;-1.5;1.5;-1.9;1.9;Hole Buje Lower Rear LH - Pos X;FALSE
+PART07_32L_Y;Pos Y;-257.5;-3;3;-6;6;Hole Buje Lower Rear LH - Pos Y;TRUE
+PART07_32L_Z;Pos Z;825.3;-3;3;-6;6;Hole Buje Lower Rear LH - Pos Z;TRUE
+PARTA4_04R_X;Pos X;701.8;-3;3;-3.8;3.8;Diff Mount - CM#1 - Buje RH Botom hole - Pos X;FALSE
+PARTA4_04R_Y;Pos Y;210;-3;3;-3.8;3.8;Diff Mount - CM#1 - Buje RH Botom hole - Pos Y;FALSE
+PARTA4_04R_Z;Pos Z;772.7;-3;3;-3.8;3.8;Diff Mount - CM#1 - Buje RH Botom hole - Pos Z;FALSE
+PARTA4_05R_X;Pos X;701.8;-3;3;-3.8;3.8;CM#1 - Buje RH Top hole - Pos X;FALSE
+PARTA4_05R_Y;Pos Y;210;-3;3;-3.8;3.8;CM#1 - Buje RH Top hole - Pos Y;FALSE
+PARTA4_05R_Z;Pos Z;854.4;-3;3;-3.8;3.8;CM#1 - Buje RH Top hole - Pos Z;FALSE
+PARTA4_06L_X;Pos X;701.8;-3;3;-3.8;3.8;CM#1 - Buje LH Botom hole - Pos X;TRUE
+PARTA4_06L_Y;Pos Y;-210;-3;3;-3.8;3.8;CM#1 - Buje LH Botom hole - Pos Y;TRUE
+PARTA4_06L_Z;Pos Z;772.7;-3;3;-3.8;3.8;CM#1 - Buje LH Botom hole - Pos Z;TRUE
+PARTA4_07L_X;Pos X;701.8;-2;2;-4;4;CM#1 - Buje LH Top hole - Pos X;TRUE
+PARTA4_07L_Y;Pos Y;-210;-2;2;-4;4;CM#1 - Buje LH Top hole - Pos Y;TRUE
+PARTA4_07L_Z;Pos Z;854.4;-2;2;-4;4;CM#1 - Buje LH Top hole - Pos Z;TRUE
+PARTA4_08_X;Pos X;1222.9;-2;2;-4;4;CM#2 - Top hole - Pos X;TRUE
+PARTA4_08_Y;Pos Y;-142;-2;2;-4;4;CM#2 - Top hole - Pos Y;TRUE
+PARTA4_08_Z;Pos Z;789;-2;2;-4;4;CM#2 - Top hole - Pos Z;TRUE
+PARTA5_02R_X;Pos X;1103.2;-3;3;-6;6;Nut RH - Pos X;TRUE
+PARTA5_02R_Y;Pos Y;479.5;-3;3;-6;6;Nut RH - Pos Y;TRUE
+PARTA5_02R_Z;Pos Z;868.7;-3;3;-6;6;Nut RH - Pos Z;TRUE
+PARTA5_02L_X;Pos X;1103.2;-3;3;-6;6;Nut LH - Pos X;TRUE
+PARTA5_02L_Y;Pos Y;-479.5;-3;3;-6;6;Nut LH - Pos Y;TRUE
+PARTA5_02L_Z;Pos Z;868.7;-3;3;-6;6;Nut LH - Pos Z;TRUE
+PARTCM1X_01R_X;Pos X;667;-3;3;-6;6;CM#1 Datum RH - Pos X;FALSE
+PARTCM1X_01R_Y;Pos Y;80;-3;3;-6;6;CM#1 Datum RH - Pos Y;FALSE
+PARTCM1X_01R_Z;Pos Z;772.7;-3;3;-6;6;CM#1 Datum RH - Pos Z;FALSE
+PARTCM1X_01L_X;Pos X;667;-3;3;-6;6;CM#1 Datum LH - Pos X;FALSE
+PARTCM1X_01L_Y;Pos Y;-152;-3;3;-6;6;CM#1 Datum LH - Pos Y;FALSE
+PARTCM1X_01L_Z;Pos Z;772.7;-3;3;-6;6;CM#1 Datum LH - Pos Z;FALSE
+PARTCM2X_01R_X;Pos X;1240;-3;3;-6;6;CM#2 Datum RH - Pos X;FALSE
+PARTCM2X_01R_Y;Pos Y;145;-3;3;-6;6;CM#2 Datum RH - Pos Y;FALSE
+PARTCM2X_01R_Z;Pos Z;738.4;-3;3;-6;6;CM#2 Datum RH - Pos Z;FALSE
+PARTCM2X_01L_X;Pos X;1240;-3;3;-6;6;CM#2 Datum LH - Pos X;FALSE
+PARTCM2X_01L_Y;Pos Y;-80;-3;3;-6;6;CM#2 Datum LH - Pos Y;FALSE
+PARTCM2X_01L_Z;Pos Z;738.4;-3;3;-6;6;CM#2 Datum LH - Pos Z;FALSE
+PARTCM1X_02R_X;Pos X;588.3;-4;4;-8;8;CM#1 - Mensula RH Out - Pos X;FALSE
+PARTCM1X_02R_Y;Pos Y;223.5;-3;3;-6;6;CM#1 - Mensula RH Out - Pos Y;FALSE
+PARTCM1X_02R_Z;Pos Z;792.2;-3;3;-6;6;CM#1 - Mensula RH Out - Pos Z;FALSE
+PARTCM1X_03R_X;Pos X;588.3;-4;4;-8;8;CM#1 - Mensula RH Inn - Pos X;FALSE
+PARTCM1X_03R_Y;Pos Y;171.5;-3;3;-6;6;CM#1 - Mensula RH Inn - Pos Y;FALSE
+PARTCM1X_03R_Z;Pos Z;792.2;-3;3;-6;6;CM#1 - Mensula RH Inn - Pos Z;FALSE
+PARTCM1X_02L_X;Pos X;588.3;-4;4;-6;6;CM#1 - Mensula LH Out - Pos X;FALSE
+PARTCM1X_02L_Y;Pos Y;-223.5;-3;3;-6;6;CM#1 - Mensula LH Out - Pos Y;FALSE
+PARTCM1X_02L_Z;Pos Z;792.2;-3;3;-8;8;CM#1 - Mensula LH Out - Pos Z;FALSE
+PARTCM1X_03L_X;Pos X;588.3;-4;4;-6;6;CM#1 - Mensula LH Inn - Pos X;FALSE
+PARTCM1X_03L_Y;Pos Y;-171.5;-3;3;-6;6;CM#1 - Mensula LH Inn - Pos Y;FALSE
+PARTCM1X_03L_Z;Pos Z;792.2;-3;3;-6;6;CM#1 - Mensula LH Inn - Pos Z;FALSE
+PART02_P21_X;Dist X;1107.1;-4;4;-8;8;Cab # 1 RH vs Cab # 2 RH - Dist X;TRUE
+PART02_P21_Y;Dist Y;160.8;-4;4;-8;8;Cab # 1 RH vs Cab # 2 RH - Dist Y;TRUE
+PART02_P21_Z;Dist Z;158.9;-3;3;-6;6;Cab # 1 RH vs Cab # 2 RH - Dist Z;TRUE
+PART02_P22_X;Dist X;1107.1;-4;4;-8;8;Cab # 1 RH vs Cab # 2 LH - Dist X;TRUE
+PART02_P22_Y;Dist Y;1080;-4;4;-8;8;Cab # 1 RH vs Cab # 2 LH - Dist Y;TRUE
+PART02_P23_Y;Dist Y;1240.8;-4;4;-8;8;Cab # 2 RH vs Cab # 2 LH - Dist X;TRUE
+PART02_P23_Z;Dist Z;0;-3;3;-6;6;Cab # 2 RH vs Cab # 2 LH - Dist Z;TRUE
+PART02_P24_Z;Dist Z;158.9;-3;3;-6;6;Cab # 1 LH vs Cab # 2 LH - Dist Z;TRUE
+PART02_P25_Z;Dist Z;0;-4;4;-8;8;A+B (P1_Z + P23_Z);TRUE
+PART02_P26_Z;Dist Z;0;-4;4;-8;8;B+C (P23_Z + P16_Z);TRUE
+PART06_P7_X;Dist X;137.6;-3;3;-6;6;Front Hole RH vs Rear Hole RH - Dist X;TRUE
+PART06_P7_Y;Dist Y;0;-3;3;-6;6;Front Hole RH vs Rear Hole RH - Dist Y;TRUE
+PART06_P7_Z;Dist Z;10.8;-3;3;-6;6;Front Hole RH vs Rear Hole RH - Dist Z;TRUE
+PART06_P8_X;Dist X;137.6;-3;3;-6;6;Front Hole LH vs Rear Hole LH - Dist X;TRUE
+PART06_P8_Y;Dist Y;0;-3;3;-6;6;Front Hole LH vs Rear Hole LH - Dist Y;TRUE
+PART06_P8_Z;Dist Z;10.8;-3;3;-6;6;Front Hole LH vs Rear Hole LH - Dist Z;TRUE
+PART07_P20_X;Dist X;33.9;-3;3;-6;6;Buje Lower RH vs LCA RH CM#1 Pt-Sim - Dist X;TRUE
+PART07_P20_Y;Dist Y;82.8;-3;3;-6;6;Buje Lower RH vs LCA RH CM#1 Pt-Sim - Dist Y;TRUE
+PART07_P20_Z;Dist Z;46.4;-3;3;-6;6;Buje Lower RH vs LCA RH CM#1 Pt-Sim - Dist Z;TRUE
+PART07_P21_Z;Dist Z;133.5;-3;3;-6;6;Buje Lower RH vs Buje Upper RH - Dist Z;TRUE
+PART07_P22_Y;Dist Y;515;-3;3;-6;6;Buje Lower RH vs Buje Lower LH - Dist Y;TRUE
+PART07_P23_X;Dist X;33.9;-3;3;-6;6;Buje Lower LH vs LCA LH CM#1 Pt-Sim - Dist X;TRUE
+PART07_P23_Y;Dist Y;82.8;-3;3;-6;6;Buje Lower LH vs LCA LH CM#1 Pt-Sim - Dist Y;TRUE
+PART07_P23_Z;Dist Z;46.4;-3;3;-6;6;Buje Lower LH vs LCA LH CM#1 Pt-Sim - Dist Z;TRUE
+PARTA2_P5_X;Dist X;168.3;-3;3;-6;6;Tueca bracket CM1 RH vs Tuerca mas RH CM AUX - Dist X;TRUE
+PARTA2_P5_Z;Dist Z;80.1;-3;3;-6;6;Tueca bracket CM1 RH vs Tuerca mas RH CM AUX - Dist Z;TRUE
+PARTA2_P6_X;Dist X;168.3;-3;3;-6;6;Tueca bracket CM1 LH vs Tuerca mas LH CM AUX - Dist X;TRUE
+PARTA2_P6_Z;Dist Z;80.1;-3;3;-6;6;Tueca bracket CM1 LH vs Tuerca mas LH CM AUX - Dist Z;TRUE
+PARTA4_P3_X;Dist X;521.1;-3;3;-6;6;Top hole CM#2 vs Top Hole buje RH CM#1 - Dist X;TRUE
+PARTA4_P3_Y;Dist Y;352;-3;3;-6;6;Top hole CM#2 vs Top Hole buje RH CM#1 - Dist Y;TRUE
+PARTA4_P4_X;Dist X;521.1;-3;3;-6;6;Top hole CM#2 vs Top Hole buje LH CM#1 - Dist X;TRUE
+PARTA4_P4_Y;Dist Y;68;-3;3;-6;6;Top hole CM#2 vs Top Hole buje LH CM#1 - Dist Y;TRUE
+PARTA4_P5_Z;Dist Z;16.3;-3;3;-6;6;Top hole CM#2 vs Bottom Hole buje RH CM#1 - Dist Z;TRUE
+PARTA4_P6_Z;Dist Z;16.3;-3;3;-6;6;Top hole CM#2 vs Bottom Hole buje LH CM#1 - Dist Z;TRUE
+PARTA6_P7_X;Dist X;821.6;-4;4;-8;8;CM#3 Hole Front RH vs Front Engine Mount Hole Rear RH - Dist X;FALSE
+PARTA6_P8_X;Dist X;821.6;-4;4;-8;8;CM#3 Hole Front RH vs Front Engine Mount Hole Rear LH - Dist X;FALSE
+PART02_P27_Z;Dist Z;158.1;-3;3;-6;6;Cab # 2 RH vs Cab # 3 RH - Dist Z;TRUE
+PART02_P28_Z;Dist Z;158.1;-3;3;-6;6;Cab # 2 LH vs Cab # 3 LH - Dist Z;TRUE
+PARTFT_02L_X;Pos X;3115;-3;3;-6;6;Fuel Tank Datum LH - Pos X;FALSE
+PARTFT_02L_Y;Pos Y;-399.2;-3;3;-6;6;Fuel Tank Datum LH - Pos Y;False
+PARTFT_02L_Z;Pos Z;1001.2;-3;3;-6;6;Fuel Tank Datum LH - Pos Z;False
+PARTA2_08R_X;Pos X;588.3;-4;4;-8;8;Tueca bracket CM1 RH - Pos X;FALSE
+PARTA2_08R_Y;Pos Y;223.5;-3;3;-8;8;Tueca bracket CM1 RH - Pos Y;FALSE
+PARTA2_08R_Z;Pos Z;792.2;-3;3;-8;8;Tueca bracket CM1 RH - Pos Z;FALSE
+PARTA2_09R_X;Pos X;588.3;-4;4;-8;8;Outer Hole bracket CM1 RH - Pos X;FALSE
+PARTA2_09R_Y;Pos Y;171.5;-3;3;-8;8;Outer Hole bracket CM1 RH - Pos Y;FALSE
+PARTA2_09R_Z;Pos Z;792.2;-3;3;-8;8;Outer Hole bracket CM1 RH - Pos Z;FALSE
+PARTA2_08L_X;Pos X;588.3;-4;4;-8;8;Tueca bracket CM1 LH - Pos X;FALSE
+PARTA2_08L_Y;Pos Y;-223.5;-3;3;-8;8;Tueca bracket CM1 LH - Pos Y;FALSE
+PARTA2_08L_Z;Pos Z;792.2;-3;3;-8;8;Tueca bracket CM1 LH - Pos Z;FALSE
+PARTA2_09L_X;Pos X;588.3;-4;4;-8;8;Outer Hole bracket CM1 LH - Pos X;FALSE
+PARTA2_09L_Y;Pos Y;-171.5;-3;3;-8;8;Outer Hole bracket CM1 LH - Pos Y;FALSE
+PARTA2_09L_Z;Pos Z;792.2;-3;3;-8;8;Outer Hole bracket CM1 LH - Pos Z;FALSE
+PART02_P29_Z;Dist Z;0;-4;4;-8;8;B+C (P23_Z + P13_Z);True
+PART02_P30_Z;Dist Z;58.9;-3;3;-6;6;Cab # 2 RH vs Cab # 3 RH - H-Pitch;True
+PART02_P31_Z;Dist Z;58.9;-3;3;-6;6;Cab # 2 LH vs Cab # 3 LH - H-Pitch;True

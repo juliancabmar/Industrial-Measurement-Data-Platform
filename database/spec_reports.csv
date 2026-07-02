@@ -1,0 +1,3 @@
+report_id;device_id;part_id;report_description;report_type;regenerate
+PART_CEP_REP;;;Part Model N - Cep Report;Cep report;False
+REP_PART;DEA TORO;X234-44;Part Model N - Part Report;Part report;False

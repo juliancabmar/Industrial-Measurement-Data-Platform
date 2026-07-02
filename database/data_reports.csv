@@ -1,0 +1,5 @@
+report_id;group_id;group_position
+PART_CEP_REP;PART01;1
+PART_CEP_REP;PART02;2
+REP_PART;PART01;1
+REP_PART;PART02;2
