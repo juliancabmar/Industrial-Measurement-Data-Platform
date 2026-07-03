@@ -55,7 +55,12 @@ Reports are generated automatically from Excel templates using VBA.
 
 ## System Architecture
 
-![General architecture](docs/images/General_Architecture.png)
+<picture>
+    <!-- Imagen para usuarios en modo oscuro -->
+    <source media="(prefers-color-scheme: dark)" srcset="docs/images/General_Architecture.png#gh-dark-mode-only">
+    <!-- Imagen por defecto y para modo claro -->
+    <img src="docs/images/General_Architecture.png#gh-light-mode-only" alt="Texto alternativo" width="600">
+</picture>
 
 ---
 
