@@ -55,7 +55,7 @@ Reports are generated automatically from Excel templates using VBA.
 
 ## System Architecture
 
-(poner aquí el diagrama de arquitectura)
+![General architecture](docs/images/General_Architecture.png)
 
 ---
 
