@@ -66,9 +66,9 @@ Reports are generated automatically from Excel templates using VBA.
 
 ## Repository Structure
 
-docs/
-loader_app/
-reporter_app/
+docs/ <br>
+loader_app/ <br>
+reporter_app/ <br>
 input_files/
 
 ---
