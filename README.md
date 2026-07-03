@@ -26,6 +26,8 @@ Main responsibilities:
 
 ### Reporter Application
 
+![Reports creation menu](docs/images/reports_menu.png)
+
 Provides engineering reports directly from the centralized measurement database.
 
 Available reports include:
